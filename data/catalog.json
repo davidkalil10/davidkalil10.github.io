@@ -41,6 +41,43 @@
   ],
   "projects": [
     {
+      "id": "ppsspp-nx2",
+      "repo": "davidkalil10/ppsspp-nx2",
+      "title": "PPSSPP-nx2",
+      "category": "switch2",
+      "platforms": ["switch2"],
+      "platformLabels": ["Switch 2"],
+      "image": "assets/projects/ppsspp-nx2.png",
+      "version": "v1.1.2",
+      "updatedAt": "2026-11-19",
+      "stars": 0,
+      "downloads": 0,
+      "badge": { "pt": "Emulador", "en": "Emulator" },
+      "summary": {
+        "pt": "Port nativo do emulador de PSP (PPSSPP-nx) para Nintendo Switch 2 construído com ounce-devkit (libounce), OunceVK (Vulkan 1.4 nativo + Zink OpenGL) e ARM64 JIT via kaiHEN.",
+        "en": "Native Nintendo Switch 2 port of the PSP emulator (PPSSPP-nx) built with ounce-devkit (libounce), OunceVK (native Vulkan 1.4 + Zink OpenGL), and kaiHEN ARM64 JIT."
+      },
+      "note": {
+        "title": { "pt": "Antes de instalar", "en": "Before you install" },
+        "body": {
+          "pt": "Copie PPSSPP-switch2.nro para o cartão SD e execute via Homebrew Menu em modo full-RAM (Title Override) no Switch 2 com kaiHEN.",
+          "en": "Copy PPSSPP-switch2.nro to your SD card and launch via Homebrew Menu in full-RAM mode (title override) on Switch 2 with kaiHEN."
+        }
+      },
+      "primaryAction": {
+        "type": "download",
+        "label": { "pt": "Baixar PPSSPP-switch2.nro", "en": "Download PPSSPP-switch2.nro" },
+        "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.2/PPSSPP-switch2.nro"
+      },
+      "assets": [
+        { "name": "PPSSPP-switch2.nro", "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.2/PPSSPP-switch2.nro" },
+        { "name": "SHA256SUMS.txt", "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.2/SHA256SUMS.txt" }
+      ],
+      "releaseUrl": "https://github.com/davidkalil10/ppsspp-nx2/releases/tag/v1.1.2",
+      "sourceUrl": "https://github.com/davidkalil10/ppsspp-nx2",
+      "releaseNotes": "Native Switch 2 port of PPSSPP-nx with OunceVK (Vulkan 1.4 + Zink OpenGL), shared 32 MiB kaiHEN JIT pool for Arm64IRJit and VertexDecoderJitCache, and complete kaihenJitPublishRanges coverage."
+    },
+    {
       "id": "vita3k-nx2",
       "repo": "davidkalil10/Vita3K-nx2",
       "title": "Vita3K-nx2",
