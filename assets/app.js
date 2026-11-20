@@ -31,7 +31,8 @@
       releaseNotes: 'Notas da versão',
       themeToLight: 'Mudar para tema claro',
       themeToDark: 'Mudar para tema escuro',
-      downloadsSuffix: 'downloads'
+      downloadsSuffix: 'downloads',
+      lastSynced: (dt) => `Última sincronização: ${dt}`
     },
     en: {
       pageTitle: 'David Kalil · Switch 2, Recompilations & Flutter',
@@ -62,7 +63,8 @@
       releaseNotes: 'Release notes',
       themeToLight: 'Switch to light theme',
       themeToDark: 'Switch to dark theme',
-      downloadsSuffix: 'downloads'
+      downloadsSuffix: 'downloads',
+      lastSynced: (dt) => `Last synced: ${dt}`
     }
   };
 
@@ -86,6 +88,7 @@
     searchInput: document.getElementById('search-input'),
     sortSelect: document.getElementById('sort-select'),
     resultCount: document.getElementById('result-count'),
+    lastSynced: document.getElementById('last-synced'),
     catalogGroups: document.getElementById('catalog-groups'),
     themeToggle: document.getElementById('theme-toggle'),
     langToggle: document.getElementById('lang-toggle'),
@@ -213,6 +216,21 @@
     el.statProjects.textContent = fmtNum(projects.length);
     el.statStars.textContent = fmtNum(stars);
     el.statDownloads.textContent = fmtNum(downloads);
+
+    if (el.lastSynced && state.catalog.generatedAt) {
+      const dt = new Date(state.catalog.generatedAt);
+      if (!Number.isNaN(dt.getTime())) {
+        const formatted = new Intl.DateTimeFormat(state.lang === 'pt' ? 'pt-BR' : 'en-US', {
+          day: '2-digit',
+          month: 'short',
+          hour: '2-digit',
+          minute: '2-digit'
+        }).format(dt);
+        el.lastSynced.textContent = I18N[state.lang].lastSynced(formatted);
+        el.lastSynced.title = dt.toLocaleString(state.lang === 'pt' ? 'pt-BR' : 'en-US');
+        el.lastSynced.hidden = false;
+      }
+    }
   }
 
   function renderRecent() {

@@ -26,6 +26,7 @@ async function ghJson(url) {
 async function main() {
   const raw = await fs.readFile(catalogPath, 'utf8');
   const catalog = JSON.parse(raw);
+  const beforeProjects = JSON.stringify(catalog.projects);
 
   for (const project of catalog.projects) {
     if (!project.repo) continue;
@@ -80,6 +81,12 @@ async function main() {
       }
     }
     console.log(`Updated ${project.repo}: ★${project.stars}, ↓${project.downloads}, ${project.version}`);
+  }
+
+  const afterProjects = JSON.stringify(catalog.projects);
+  if (afterProjects === beforeProjects) {
+    console.log('No project changes detected; skipping catalog.json write.');
+    return;
   }
 
   catalog.generatedAt = new Date().toISOString();
