@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T15:00:00Z",
+  "generatedAt": "2026-11-20T02:28:56.667Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -8,15 +8,42 @@
     "kofi": "https://ko-fi.com/davidkalil10"
   },
   "platforms": [
-    { "id": "all", "label": { "pt": "Todos", "en": "All" } },
-    { "id": "switch2", "label": { "pt": "Switch 2", "en": "Switch 2" } },
-    { "id": "switch1", "label": { "pt": "Switch 1", "en": "Switch 1" } },
-    { "id": "multi", "label": { "pt": "PC / Mobile / VR", "en": "PC / Mobile / VR" } }
+    {
+      "id": "all",
+      "label": {
+        "pt": "Todos",
+        "en": "All"
+      }
+    },
+    {
+      "id": "switch2",
+      "label": {
+        "pt": "Switch 2",
+        "en": "Switch 2"
+      }
+    },
+    {
+      "id": "switch1",
+      "label": {
+        "pt": "Switch 1",
+        "en": "Switch 1"
+      }
+    },
+    {
+      "id": "multi",
+      "label": {
+        "pt": "PC / Mobile / VR",
+        "en": "PC / Mobile / VR"
+      }
+    }
   ],
   "categories": [
     {
       "id": "switch2",
-      "label": { "pt": "Switch 2", "en": "Switch 2" },
+      "label": {
+        "pt": "Switch 2",
+        "en": "Switch 2"
+      },
       "description": {
         "pt": "Homebrew nativos, emuladores, clientes de streaming e utilitários para Nintendo Switch 2.",
         "en": "Native homebrew, emulators, streaming clients, and utilities for Nintendo Switch 2."
@@ -24,7 +51,10 @@
     },
     {
       "id": "recomps",
-      "label": { "pt": "Recompilações", "en": "Recompilations" },
+      "label": {
+        "pt": "Recompilações",
+        "en": "Recompilations"
+      },
       "description": {
         "pt": "Recompilações nativas multiplataforma da série Heroes Lore (Windows, Linux, Android, Switch e Switch 2).",
         "en": "Multiplatform native recompilations of the Heroes Lore series (Windows, Linux, Android, Switch & Switch 2)."
@@ -32,7 +62,10 @@
     },
     {
       "id": "flutter",
-      "label": { "pt": "Flutter & Multiplataforma", "en": "Flutter & Cross-Platform" },
+      "label": {
+        "pt": "Flutter & Multiplataforma",
+        "en": "Flutter & Cross-Platform"
+      },
       "description": {
         "pt": "Aplicativos multiplataforma, sites oficiais e pacotes desenvolvidos com Flutter para Android, Windows, VR e Web.",
         "en": "Cross-platform apps, official sites, and packages built with Flutter for Android, Windows, VR, and Web."
@@ -45,20 +78,30 @@
       "repo": "davidkalil10/ppsspp-nx2",
       "title": "PPSSPP-nx2",
       "category": "switch2",
-      "platforms": ["switch2"],
-      "platformLabels": ["Switch 2"],
+      "platforms": [
+        "switch2"
+      ],
+      "platformLabels": [
+        "Switch 2"
+      ],
       "image": "assets/projects/ppsspp-nx2.png",
-      "version": "v1.1.2",
-      "updatedAt": "2026-11-19",
+      "version": "v1.1.6",
+      "updatedAt": "2026-11-20",
       "stars": 0,
-      "downloads": 0,
-      "badge": { "pt": "Emulador", "en": "Emulator" },
+      "downloads": 22,
+      "badge": {
+        "pt": "Emulador",
+        "en": "Emulator"
+      },
       "summary": {
         "pt": "Port nativo do emulador de PSP (PPSSPP-nx) para Nintendo Switch 2 construído com ounce-devkit (libounce), OunceVK (Vulkan 1.4 nativo + Zink OpenGL) e ARM64 JIT via kaiHEN.",
         "en": "Native Nintendo Switch 2 port of the PSP emulator (PPSSPP-nx) built with ounce-devkit (libounce), OunceVK (native Vulkan 1.4 + Zink OpenGL), and kaiHEN ARM64 JIT."
       },
       "note": {
-        "title": { "pt": "Antes de instalar", "en": "Before you install" },
+        "title": {
+          "pt": "Antes de instalar",
+          "en": "Before you install"
+        },
         "body": {
           "pt": "Copie PPSSPP-switch2.nro para o cartão SD e execute via Homebrew Menu em modo full-RAM (Title Override) no Switch 2 com kaiHEN.",
           "en": "Copy PPSSPP-switch2.nro to your SD card and launch via Homebrew Menu in full-RAM mode (title override) on Switch 2 with kaiHEN."
@@ -66,36 +109,51 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar PPSSPP-switch2.nro", "en": "Download PPSSPP-switch2.nro" },
-        "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.2/PPSSPP-switch2.nro"
+        "label": {
+          "pt": "Baixar PPSSPP-switch2.nro",
+          "en": "Download PPSSPP-switch2.nro"
+        },
+        "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.6/PPSSPP-switch2.nro"
       },
       "assets": [
-        { "name": "PPSSPP-switch2.nro", "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.2/PPSSPP-switch2.nro" },
-        { "name": "SHA256SUMS.txt", "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.2/SHA256SUMS.txt" }
+        {
+          "name": "PPSSPP-switch2.nro",
+          "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.6/PPSSPP-switch2.nro"
+        }
       ],
-      "releaseUrl": "https://github.com/davidkalil10/ppsspp-nx2/releases/tag/v1.1.2",
+      "releaseUrl": "https://github.com/davidkalil10/ppsspp-nx2/releases/tag/v1.1.6",
       "sourceUrl": "https://github.com/davidkalil10/ppsspp-nx2",
-      "releaseNotes": "Native Switch 2 port of PPSSPP-nx with OunceVK (Vulkan 1.4 + Zink OpenGL), shared 32 MiB kaiHEN JIT pool for Arm64IRJit and VertexDecoderJitCache, and complete kaihenJitPublishRanges coverage."
+      "releaseNotes": "# PPSSPP-nx2 v1.1.6 — Nintendo Switch 2 Release\n\nNative Nintendo Switch 2 port of **PPSSPP-nx** built with `ounce-devkit` (`libounce`), **OunceVK** (native Vulkan 1.4 + Zink OpenGL), and **kaiHEN** ARM64 JIT.\n\n## What's New in v1.1.6\n- **ARM64 JIT Stability Fix (`enableBlocklink = false`, `cachePointers = false` on Switch 2):** Disables in-place block-link patching over `kaiHEN`'s `RO` alias and prevents `AdjustNativeRegAsPtr` from masking away upper bits (`0x40000000`/`0x80000000`) of uncached PSP pointers under `MASKED_PSP_MEMORY`.\n- **Switch 2 PSP Memory Arena (`NO_MMAP` + `MASKED_PSP_MEMORY`, `MEMVIEW32_MASK = 0x0FFFFFFF`)** with zero Switch 1 kernel SVCs.\n- **Shared 32 MiB `kaiHEN` JIT Pool** with single-range `kaihenJitPublishRanges` publishing.\n- **Native Vulkan 1.4 (`OunceVK`)** default backend with **LSFG 2x Vulkan Frame Generation** support (user-supplied `Lossless.dll` in `/sw…"
     },
     {
       "id": "vita3k-nx2",
       "repo": "davidkalil10/Vita3K-nx2",
       "title": "Vita3K-nx2",
       "category": "switch2",
-      "platforms": ["switch2"],
-      "platformLabels": ["Switch 2"],
+      "platforms": [
+        "switch2"
+      ],
+      "platformLabels": [
+        "Switch 2"
+      ],
       "image": "assets/projects/vita3k-nx2.svg",
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
-      "stars": 4,
-      "downloads": 13,
-      "badge": { "pt": "Emulador", "en": "Emulator" },
+      "stars": 6,
+      "downloads": 27,
+      "badge": {
+        "pt": "Emulador",
+        "en": "Emulator"
+      },
       "summary": {
         "pt": "Port nativo do emulador de PlayStation Vita (Vita3K-nx) para Nintendo Switch 2 com Vulkan 1.4 via OunceVK, ARM64 JIT (Dynarmic via kaiHEN), launcher gráfico completo e suporte a LSFG 2x.",
         "en": "Native Nintendo Switch 2 port of the PlayStation Vita emulator (Vita3K-nx) featuring Vulkan 1.4 via OunceVK, ARM64 JIT (Dynarmic via kaiHEN), full graphical launcher, and LSFG 2x support."
       },
       "note": {
-        "title": { "pt": "Antes de instalar", "en": "Before you install" },
+        "title": {
+          "pt": "Antes de instalar",
+          "en": "Before you install"
+        },
         "body": {
           "pt": "Copie Vita3K-switch2.nro para sdmc:/switch/vita3k/ e execute via Homebrew Menu em modo full-RAM (Title Override) no Switch 2 com kaiHEN.",
           "en": "Copy Vita3K-switch2.nro to sdmc:/switch/vita3k/ and launch via Homebrew Menu in full-RAM mode (title override) on Switch 2 with kaiHEN."
@@ -103,36 +161,53 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar Vita3K-switch2.nro", "en": "Download Vita3K-switch2.nro" },
+        "label": {
+          "pt": "Baixar Vita3K-switch2.nro",
+          "en": "Download Vita3K-switch2.nro"
+        },
         "url": "https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/Vita3K-switch2.nro"
       },
       "assets": [
-        { "name": "Vita3K-switch2.nro", "url": "https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/Vita3K-switch2.nro" },
-        { "name": "SHA256SUMS.txt", "url": "https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/SHA256SUMS.txt" }
+        {
+          "name": "Vita3K-switch2.nro",
+          "url": "https://github.com/davidkalil10/Vita3K-nx2/releases/download/v1.4.1/Vita3K-switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Vita3K-nx2/releases/tag/v1.4.1",
       "sourceUrl": "https://github.com/davidkalil10/Vita3K-nx2",
-      "releaseNotes": "Full Graphical Switch Launcher with bundled core emulator (Vita3K-switch2.nro), Native Vulkan 1.4 (OunceVK) + ARM64 JIT (Dynarmic via kaiHEN), verified commercial PS Vita gameplay, LSFG 2x Frame Generation (Vulkan), and Switch 2 auto-updater."
+      "releaseNotes": "# Vita3K-nx2 v1.4.1 — Nintendo Switch 2 Release\n\nNative Nintendo Switch 2 port of **Vita3K-nx** built with `ounce-devkit` (`libounce`), **OunceVK** (native Vulkan 1.4), and **kaiHEN** ARM64 JIT (`Dynarmic`), including the full graphical Switch launcher.\n\n## Verified on Real Nintendo Switch 2 Hardware\n- **Full Graphical Switch Launcher** with bundled core emulator (`Vita3K-switch2.nro`).\n- **Native Vulkan 1.4 (`OunceVK`)** + **ARM64 JIT (`Dynarmic` via `kaiHEN`)**.\n- **Firmware, System Fonts (PVF), and `.pkg`/License Installation** verified in-launcher and via chainload.\n- **Commercial PS Vita Gameplay Verified** (including *Uncharted: Golden Abyss* with saves and in-game Quick Menu via `L + R + +`).\n- **LSFG 2x Frame Generation (Vulkan)** verified working on Switch 2 with user-provided `Lossless.dll`.\n- **Switch 2 Auto-Updater** pointed to `davidkalil10/Vita3K-nx2` releases (`Vita3K-swit…"
     },
     {
       "id": "gmca-nx2",
       "repo": "davidkalil10/GMCA_NX2",
       "title": "GMCA NX2",
       "category": "switch2",
-      "platforms": ["switch2", "switch1"],
-      "platformLabels": ["Switch 2", "Switch 1"],
+      "platforms": [
+        "switch2",
+        "switch1"
+      ],
+      "platformLabels": [
+        "Switch 2",
+        "Switch 1"
+      ],
       "image": "assets/projects/gmca-nx2.webp",
       "version": "v1.4.0-switch2",
       "updatedAt": "2026-11-18",
       "stars": 1,
       "downloads": 27,
-      "badge": { "pt": "Mídia", "en": "Media" },
+      "badge": {
+        "pt": "Mídia",
+        "en": "Media"
+      },
       "summary": {
         "pt": "Port nativo do Gamepad Media Center Aggregator para Nintendo Switch 2 e Switch 1. Reúne Plex, Jellyfin, Emby, Stremio e servidores WebDAV/FTP/SFTP/HTTP em uma interface otimizada para controle.",
         "en": "Native port of Gamepad Media Center Aggregator for Nintendo Switch 2 & Switch 1. Connects to Plex, Jellyfin, Emby, Stremio, and WebDAV/FTP/SFTP/HTTP servers in a single controller-first .nro."
       },
       "note": {
-        "title": { "pt": "Compatibilidade", "en": "Compatibility" },
+        "title": {
+          "pt": "Compatibilidade",
+          "en": "Compatibility"
+        },
         "body": {
           "pt": "Inclui builds separadas para Switch 2 (GMCA-switch2.nro via libounce/OunceVK) e Switch 1 (GMCA-switch1.nro), com atualizador integrado.",
           "en": "Includes separate builds for Switch 2 (GMCA-switch2.nro via libounce/OunceVK) and Switch 1 (GMCA-switch1.nro), with built-in auto-updater."
@@ -140,36 +215,55 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar GMCA-switch2.nro", "en": "Download GMCA-switch2.nro" },
-        "url": "https://github.com/davidkalil10/GMCA_NX2/releases/download/v1.4.0-switch2/GMCA-switch2.nro"
+        "label": {
+          "pt": "Baixar GMCA-switch1.nro",
+          "en": "Download GMCA-switch1.nro"
+        },
+        "url": "https://github.com/davidkalil10/GMCA_NX2/releases/download/v1.4.0-switch2/GMCA-switch1.nro"
       },
       "assets": [
-        { "name": "GMCA-switch2.nro", "url": "https://github.com/davidkalil10/GMCA_NX2/releases/download/v1.4.0-switch2/GMCA-switch2.nro" },
-        { "name": "GMCA-switch1.nro", "url": "https://github.com/davidkalil10/GMCA_NX2/releases/download/v1.4.0-switch2/GMCA-switch1.nro" }
+        {
+          "name": "GMCA-switch1.nro",
+          "url": "https://github.com/davidkalil10/GMCA_NX2/releases/download/v1.4.0-switch2/GMCA-switch1.nro"
+        },
+        {
+          "name": "GMCA-switch2.nro",
+          "url": "https://github.com/davidkalil10/GMCA_NX2/releases/download/v1.4.0-switch2/GMCA-switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/GMCA_NX2/releases/tag/v1.4.0-switch2",
       "sourceUrl": "https://github.com/davidkalil10/GMCA_NX2",
-      "releaseNotes": "Compiled for Switch 2 using ounce-devkit, EGL + GLES 3.2 via Mesa Zink/NVK Vulkan, FFmpeg 7.1 + libmpv 0.39.0. Hardware-verified on real Nintendo Switch 2 with Stremio login, addon sync, and playback."
+      "releaseNotes": "## GMCA NX2 \u000b1.4.0 (Nintendo Switch 2 & Switch 1)\n\n\n\nNative port of **GMCA (Gamepad Media Center Aggregator)** to **Nintendo Switch 2** (kaiHEN / ounce-hbmenu), bringing **Plex, Jellyfin, Emby, Stremio**, and **File servers** (WebDAV / FTP / SFTP / HTTP) to Switch 2 in a single controller-first .nro.\n\n---\n\n### What's New in \u000b1.4.0-switch2\n- **Nintendo Switch 2 Native Port (libounce + OunceVK):**\n  - Compiled for Switch 2 using ounce-devkit (20261115b), EGL + GLES 3.2 via Mesa Zink / NVK Vulkan, and clean Switch 2 **FFmpeg 7.1** (--disable-nvtegra) paired with devkitPro **libmpv 0.39.0**.\n  - Configured with 2 MB pthread stacks, guarded MPVCore::init(), and Switch 2 safe platform hooks (overclock, ums, \u000bersion).\n  - Hardware-verified on real **Nintendo Switch 2** (GMCA-switch2.nro, commit 8671de16), including Stremio account login, addon sync, catalog browsing, and playback.\n- **Nintendo…"
     },
     {
       "id": "super-moonlight-nx2",
       "repo": "davidkalil10/super-moonlight-nx2",
       "title": "Super Moonlight NX2",
       "category": "switch2",
-      "platforms": ["switch2"],
-      "platformLabels": ["Switch 2"],
+      "platforms": [
+        "switch2"
+      ],
+      "platformLabels": [
+        "Switch 2"
+      ],
       "image": "assets/projects/super-moonlight-nx2.jpg",
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 13,
-      "downloads": 42,
-      "badge": { "pt": "Streaming", "en": "Streaming" },
+      "downloads": 50,
+      "badge": {
+        "pt": "Streaming",
+        "en": "Streaming"
+      },
       "summary": {
         "pt": "Cliente Moonlight para Nintendo Switch 2 com VPN Tailscale embutida em userspace (Rust + WireGuard). Faça streaming de jogos do PC via Sunshine em rede local ou de qualquer lugar do mundo sem sysmodules.",
         "en": "Moonlight client for Nintendo Switch 2 with built-in userspace Tailscale VPN (Rust + WireGuard). Stream PC games from Sunshine over LAN or anywhere in the world inside a single .nro."
       },
       "note": {
-        "title": { "pt": "Tailscale integrado", "en": "Built-in Tailscale" },
+        "title": {
+          "pt": "Tailscale integrado",
+          "en": "Built-in Tailscale"
+        },
         "body": {
           "pt": "Ative em Settings → Tailscale e escaneie o QR Code exibido na tela do Switch 2 para conectar e importar seus PCs do Tailnet com um clique.",
           "en": "Enable under Settings → Tailscale and scan the on-screen QR Code on Switch 2 to sign in and import online Tailnet PCs with one click."
@@ -177,36 +271,59 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar super-moonlight-nx2.nro", "en": "Download super-moonlight-nx2.nro" },
-        "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2.nro"
+        "label": {
+          "pt": "Baixar moonlight-nx2.nro",
+          "en": "Download moonlight-nx2.nro"
+        },
+        "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/moonlight-nx2.nro"
       },
       "assets": [
-        { "name": "super-moonlight-nx2.nro", "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2.nro" },
-        { "name": "super-moonlight-nx2-v1.0.0-switch2.zip", "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2-v1.0.0-switch2.zip" }
+        {
+          "name": "moonlight-nx2.nro",
+          "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/moonlight-nx2.nro"
+        },
+        {
+          "name": "super-moonlight-nx2-v1.0.0-switch2.zip",
+          "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2-v1.0.0-switch2.zip"
+        },
+        {
+          "name": "super-moonlight-nx2.nro",
+          "url": "https://github.com/davidkalil10/super-moonlight-nx2/releases/download/v1.0.0/super-moonlight-nx2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/super-moonlight-nx2/releases/tag/v1.0.0",
       "sourceUrl": "https://github.com/davidkalil10/super-moonlight-nx2",
-      "releaseNotes": "Embedded userspace Tailscale VPN (tsnx-core + rustls + WireGuard + smoltcp), in-app Tailscale settings panel, on-screen QR code login, one-click Import Tailnet PCs, and 120 Hz / 4K hardware AV1/H.264 decoding."
+      "releaseNotes": "## Super Moonlight NX2 `v1.0.0` (Nintendo Switch 2 + Built-in Tailscale VPN)\n\n\n\nStream PC games from **Sunshine** to **Nintendo Switch 2** (`kaiHEN` / `ounce-hbmenu`) over your local network or **anywhere in the world over Tailscale** — all inside a single `.nro` without needing any background sysmodule.\n\n---\n\n### ✨ What's New in `v1.0.0`\n- **Built-in Userspace Tailscale VPN (`tsnx-core` + `tsnx-ffi` + `tailscale-rs`):**\n  - Embedded directly into the Switch 2 runtime (`aarch64-unknown-none`) using pure-Rust TLS 1.3 (`rustls`), userspace WireGuard, and `smoltcp`.\n- **In-App `Settings -> Tailscale` Panel:**\n  - **Tailscale (`Off` / `On`):** Enable or pause the tunnel directly from Moonlight's Settings menu (automatically reconnects on launch when left `On`).\n  - **Interactive Login with On-Screen QR Code (`Start QR`):** Generates a Tailscale login URL and renders a crisp, scannable **QR C…"
     },
     {
       "id": "battleship-remix-ns2",
       "repo": "davidkalil10/BattleShip-remix-NS2",
       "title": "BattleShip-Remix NS2",
       "category": "switch2",
-      "platforms": ["switch2"],
-      "platformLabels": ["Switch 2"],
+      "platforms": [
+        "switch2"
+      ],
+      "platformLabels": [
+        "Switch 2"
+      ],
       "image": "assets/projects/battleship-remix-ns2.png",
-      "version": "v2.0.1-port.13",
+      "version": "v2.0.1-port.13-switch2",
       "updatedAt": "2026-11-18",
       "stars": 0,
       "downloads": 8,
-      "badge": { "pt": "Port Nativo", "en": "Native Port" },
+      "badge": {
+        "pt": "Port Nativo",
+        "en": "Native Port"
+      },
       "summary": {
         "pt": "Port nativo do BattleShip-Remix (Super Smash Bros. 64 + mod Smash Remix 2.0.1) para Nintendo Switch 2 usando libounce e OunceVK (OpenGL 3.3 Core Profile sobre Vulkan/Zink), validado em hardware real.",
         "en": "Native Nintendo Switch 2 port of BattleShip-Remix (Super Smash Bros. 64 + Smash Remix 2.0.1) built with libounce and OunceVK (OpenGL 3.3 Core Profile over Vulkan/Zink), verified on real hardware."
       },
       "note": {
-        "title": { "pt": "O que você precisa", "en": "What you need" },
+        "title": {
+          "pt": "O que você precisa",
+          "en": "What you need"
+        },
         "body": {
           "pt": "Requer os arquivos de assets extraídos da sua própria cópia/ROM do jogo na pasta /switch/BattleShip-Remix no cartão SD.",
           "en": "Requires extracted game assets from your own legally owned ROM placed in /switch/BattleShip-Remix on your SD card."
@@ -214,36 +331,61 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar BattleShip-Remix-switch2.zip", "en": "Download BattleShip-Remix-switch2.zip" },
-        "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix-switch2.zip"
+        "label": {
+          "pt": "Baixar BattleShip-Remix-switch2.nro",
+          "en": "Download BattleShip-Remix-switch2.nro"
+        },
+        "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix-switch2.nro"
       },
       "assets": [
-        { "name": "BattleShip-Remix-switch2.zip", "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix-switch2.zip" },
-        { "name": "BattleShip-Remix-switch2.nro", "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix-switch2.nro" }
+        {
+          "name": "BattleShip-Remix-switch2.nro",
+          "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix-switch2.nro"
+        },
+        {
+          "name": "BattleShip-Remix-switch2.zip",
+          "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix-switch2.zip"
+        },
+        {
+          "name": "BattleShip-Remix.nro",
+          "url": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/download/v2.0.1-port.13-switch2/BattleShip-Remix.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/BattleShip-remix-NS2/releases/tag/v2.0.1-port.13-switch2",
       "sourceUrl": "https://github.com/davidkalil10/BattleShip-remix-NS2",
-      "releaseNotes": "Native Switch 2 ABI (OUN0 / Cortex-A78C), OpenGL 3.3 Core Profile via OunceVK, safe hardware hooks without Switch 1 CPU overclock calls, and auto-discovery of /switch/BattleShip-Remix."
+      "releaseNotes": "## BattleShip-Remix — Nintendo Switch 2 Edition (`v2.0.1-port.13-switch2`)\n\nPort nativo do **BattleShip-Remix** (Super Smash Bros. 64 + **Smash Remix 2.0.1**) para o **Nintendo Switch 2 (`Ounce` / `libounce` + `OunceVK`)**, validado em hardware real.\n\n---\n\n### Destaques da Adaptação para Nintendo Switch 2\n- **Runtime & ABI Switch 2 (`libounce`):** Compilado com `Switch2.cmake` (`-mcpu=cortex-a78c+crypto -mtp=soft -ftls-model=local-exec`) e empacotado no formato `OUN0` (`MOD0` startup header `platform=2, version=1`).\n- **Gráficos via `OunceVK` (OpenGL 3.3 Core Profile sobre Vulkan/Zink):**\n  - Configurado `LUS_GL_CORE_PROFILE=1` e shaders Fast3D/ImGui em `#version 330 core` com gerenciamento explícito de VAO (`mOpenglVao`) a cada frame, compatível com o driver Mesa/Zink do Switch 2.\n- **Segurança de Hardware Switch 2:** Desativadas todas as chamadas de overclock de CPU do Switch 1 (`clkrs…"
     },
     {
       "id": "stremnx2",
       "repo": "davidkalil10/StremNX2",
       "title": "StremNX2",
       "category": "switch2",
-      "platforms": ["switch2", "switch1"],
-      "platformLabels": ["Switch 2", "Switch 1"],
+      "platforms": [
+        "switch2",
+        "switch1"
+      ],
+      "platformLabels": [
+        "Switch 2",
+        "Switch 1"
+      ],
       "image": "assets/projects/stremnx2.jpg",
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 31,
-      "badge": { "pt": "Mídia", "en": "Media" },
+      "downloads": 34,
+      "badge": {
+        "pt": "Mídia",
+        "en": "Media"
+      },
       "summary": {
         "pt": "Cliente não oficial do Stremio para Nintendo Switch 2 e Switch 1 com interface estilo streaming, sincronização de conta e addons, player mpv/FFmpeg 7.1, motor torrent integrado e downloads no cartão SD.",
         "en": "Unofficial Stremio client for Nintendo Switch 2 & Switch 1 with streaming-style UI, account & addon sync, mpv/FFmpeg 7.1 player, built-in torrent engine, and SD card downloads."
       },
       "note": {
-        "title": { "pt": "Antes de instalar", "en": "Before you install" },
+        "title": {
+          "pt": "Antes de instalar",
+          "en": "Before you install"
+        },
         "body": {
           "pt": "Copie stremnx-switch2.nro para sdmc:/switch/stremnx/stremnx.nro e abra pelo Homebrew Menu em Title Mode (segurando R ao iniciar um jogo).",
           "en": "Copy stremnx-switch2.nro to sdmc:/switch/stremnx/stremnx.nro and launch from Homebrew Menu in Title Mode (hold R while starting a game)."
@@ -251,36 +393,57 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar stremnx-switch2.nro", "en": "Download stremnx-switch2.nro" },
-        "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch2.nro"
+        "label": {
+          "pt": "Baixar stremnx-switch1.nro",
+          "en": "Download stremnx-switch1.nro"
+        },
+        "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch1.nro"
       },
       "assets": [
-        { "name": "stremnx-switch2.nro", "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch2.nro" },
-        { "name": "stremnx-switch1.nro", "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch1.nro" }
+        {
+          "name": "stremnx-switch1.nro",
+          "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch1.nro"
+        },
+        {
+          "name": "stremnx-switch2.nro",
+          "url": "https://github.com/davidkalil10/StremNX2/releases/download/v0.3.2/stremnx-switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/StremNX2/releases/tag/v0.3.2",
       "sourceUrl": "https://github.com/davidkalil10/StremNX2",
-      "releaseNotes": "Native ARMv8 Cortex-A78C Switch 2 build (libounce + OunceVK), clean FFmpeg 7.1 with multi-threaded decoding, stable EGL/GLES context switching between SDL UI and libmpv, and built-in updater."
+      "releaseNotes": "## StremNX2 v0.3.2 — Nintendo Switch 2 & Switch 1 Release\n\nAn unofficial Stremio client for **Nintendo Switch 2** (`ounce-devkit` / `libounce` + `OunceVK`) and **Nintendo Switch 1** (`libnx`).\n\n---\n\n### 📦 Downloads (Assets)\n- **`stremnx-switch2.nro`**: Native build for **Nintendo Switch 2** (`libounce` + `OunceVK`, Cortex-A78C, clean Switch 2 FFmpeg 7.1 with `--disable-nvtegra`, `libmpv` OpenGL ES 3.0).\n- **`stremnx-switch1.nro`**: Build for **Nintendo Switch 1** (`libnx`).\n\n### 🚀 Installation\n1. Download the `.nro` matching your console (`stremnx-switch2.nro` for Switch 2 or `stremnx-switch1.nro` for Switch 1).\n2. Copy it to your microSD card at `sdmc:/switch/stremnx/stremnx.nro`.\n3. Launch from the Homebrew Menu in **Title Mode** (hold **R** while starting a game).\n\n### ✨ Switch 2 Port Highlights\n- Native ARMv8 Cortex-A78C compilation (`libounce` + `OunceVK`).\n- Clean Switch 2 FFmpeg…"
     },
     {
       "id": "switch2iptv",
       "repo": "davidkalil10/switch2iptv",
       "title": "Switch2IPTV",
       "category": "switch2",
-      "platforms": ["switch2", "switch1"],
-      "platformLabels": ["Switch 2", "Switch 1"],
+      "platforms": [
+        "switch2",
+        "switch1"
+      ],
+      "platformLabels": [
+        "Switch 2",
+        "Switch 1"
+      ],
       "image": "assets/projects/switch2iptv.jpg",
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 3,
       "downloads": 17,
-      "badge": { "pt": "IPTV", "en": "IPTV" },
+      "badge": {
+        "pt": "IPTV",
+        "en": "IPTV"
+      },
       "summary": {
         "pt": "Player de IPTV homebrew em português para Nintendo Switch 2 e Switch 1. Suporta Xtream Codes e playlists M3U, abas de Ao Vivo/Filmes/Séries, EPG, busca global, favoritos e retomada de reprodução.",
         "en": "Homebrew IPTV player in Portuguese for Nintendo Switch 2 & Switch 1. Supports Xtream Codes and M3U playlists, Live/Movies/Series tabs, EPG, global search, favorites, and resume playback."
       },
       "note": {
-        "title": { "pt": "Privacidade", "en": "Privacy" },
+        "title": {
+          "pt": "Privacidade",
+          "en": "Privacy"
+        },
         "body": {
           "pt": "Favoritos, histórico e credenciais ficam armazenados somente no cartão SD — nenhum dado é enviado para servidores externos.",
           "en": "Favorites, watch history, and credentials are stored locally on your SD card only."
@@ -288,36 +451,57 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar IptvPlayerSwitch-switch2.nro", "en": "Download IptvPlayerSwitch-switch2.nro" },
+        "label": {
+          "pt": "Baixar IptvPlayerSwitch-switch2.nro",
+          "en": "Download IptvPlayerSwitch-switch2.nro"
+        },
         "url": "https://github.com/davidkalil10/switch2iptv/releases/download/v1.0.8/IptvPlayerSwitch-switch2.nro"
       },
       "assets": [
-        { "name": "IptvPlayerSwitch-switch2.nro", "url": "https://github.com/davidkalil10/switch2iptv/releases/download/v1.0.8/IptvPlayerSwitch-switch2.nro" },
-        { "name": "IptvPlayerSwitch.nro (Switch 1)", "url": "https://github.com/davidkalil10/switch2iptv/releases/download/v1.0.8/IptvPlayerSwitch.nro" }
+        {
+          "name": "IptvPlayerSwitch-switch2.nro",
+          "url": "https://github.com/davidkalil10/switch2iptv/releases/download/v1.0.8/IptvPlayerSwitch-switch2.nro"
+        },
+        {
+          "name": "IptvPlayerSwitch.nro",
+          "url": "https://github.com/davidkalil10/switch2iptv/releases/download/v1.0.8/IptvPlayerSwitch.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/switch2iptv/releases/tag/v1.0.8",
       "sourceUrl": "https://github.com/davidkalil10/switch2iptv",
-      "releaseNotes": "Native Switch 2 port using libounce + OunceVK (EGL + OpenGL ES 3.0) with libmpv and clean FFmpeg 7.1 for cortex-a78c, plus Switch 1 build included."
+      "releaseNotes": "## Downloads\n- **Nintendo Switch 2**: `IptvPlayerSwitch-switch2.nro` (compativel com `kaiHEN` / `ounce-hbmenu`)\n- **Nintendo Switch 1**: `IptvPlayerSwitch.nro`\n- **Checksums**: `SHA256SUMS.txt`\n\n## Destaques desta versão\n- Port nativo para **Nintendo Switch 2** usando `libounce` + `OunceVK` (`EGL` + `OpenGL ES 3.0`) com `libmpv` e `FFmpeg 7.1` limpo para `cortex-a78c` (`--disable-nvtegra`, `tls_libnx`, áudio via `libounce`).\n- Verificação automática de binário Switch 2 (`OUN0`, `ASET` e link map livre de dependências de Switch 1).\n- Mantido suporte ao build de **Nintendo Switch 1** (`IptvPlayerSwitch.nro`).\n\n## Créditos e Agradecimentos\n- **Projeto original (`switchiptv`)**: [GomGeek (@gomprime)](https://github.com/gomprime) — obrigado pelo excelente projeto base!\n- **Adaptação Nintendo Switch 2**: [David Kalil Braga (@davidkalil10)](https://github.com/davidkalil10)\n- **Agradecimentos**:…"
     },
     {
       "id": "switch2now",
       "repo": "davidkalil10/Switch2NOW",
       "title": "Switch2NOW",
       "category": "switch2",
-      "platforms": ["switch2", "switch1"],
-      "platformLabels": ["Switch 2", "Switch 1"],
+      "platforms": [
+        "switch2",
+        "switch1"
+      ],
+      "platformLabels": [
+        "Switch 2",
+        "Switch 1"
+      ],
       "image": "assets/projects/switch2now.png",
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 30,
-      "badge": { "pt": "Cloud Gaming", "en": "Cloud Gaming" },
+      "downloads": 31,
+      "badge": {
+        "pt": "Cloud Gaming",
+        "en": "Cloud Gaming"
+      },
       "summary": {
         "pt": "Cliente homebrew nativo do GeForce NOW para Nintendo Switch 2 e Switch 1 com interface Borealis, WebRTC nativo, decodificação H.264 por hardware, áudio Opus e localização em Português (Brasil).",
         "en": "Native GeForce NOW homebrew client for Nintendo Switch 2 & Switch 1 featuring Borealis UI, native WebRTC signaling, hardware H.264 decoding, Opus audio, and Brazilian Portuguese (pt-BR) localization."
       },
       "note": {
-        "title": { "pt": "Requisitos", "en": "Requirements" },
+        "title": {
+          "pt": "Requisitos",
+          "en": "Requirements"
+        },
         "body": {
           "pt": "Requer conta válida do GeForce NOW. Compatível com kaiHEN / ounce-hbmenu no Switch 2 e Atmosphère / hbmenu no Switch 1.",
           "en": "Requires a valid GeForce NOW account. Compatible with kaiHEN / ounce-hbmenu on Switch 2 and Atmosphère / hbmenu on Switch 1."
@@ -325,36 +509,57 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar SwitchNOW-switch2.nro", "en": "Download SwitchNOW-switch2.nro" },
+        "label": {
+          "pt": "Baixar SwitchNOW-switch2.nro",
+          "en": "Download SwitchNOW-switch2.nro"
+        },
         "url": "https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW-switch2.nro"
       },
       "assets": [
-        { "name": "SwitchNOW-switch2.nro", "url": "https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW-switch2.nro" },
-        { "name": "SwitchNOW.nro (Switch 1)", "url": "https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW.nro" }
+        {
+          "name": "SwitchNOW-switch2.nro",
+          "url": "https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW-switch2.nro"
+        },
+        {
+          "name": "SwitchNOW.nro",
+          "url": "https://github.com/davidkalil10/Switch2NOW/releases/download/v1.3.0/SwitchNOW.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Switch2NOW/releases/tag/v1.3.0",
       "sourceUrl": "https://github.com/davidkalil10/Switch2NOW",
-      "releaseNotes": "Native Switch 2 port with ounce-devkit / OunceVK, hardware H.264 decoding via viddec with FFmpeg fallback, libopus + audout audio, and pt-BR localization."
+      "releaseNotes": "## Downloads\n- **Nintendo Switch 2**: `SwitchNOW-switch2.nro` (compatible with `hbmenu` / `ounce-hbmenu` and `kaiHEN`)\n- **Nintendo Switch 1**: `SwitchNOW.nro`\n- **Checksums**: `SHA256SUMS.txt`\n\n## What's included\n- Native **Nintendo Switch 2** port using `ounce-devkit` / `libounce` / `OunceVK` (OpenGL ES 3.0 UI via Borealis & `GLVideoRenderer`, hardware H.264 decoding via `viddec` with software FFmpeg fallback, `libopus` + `audout` audio).\n- Added **Português (Brasil)** (`pt-BR`) UI localization (available in `Settings > Interface > Language`).\n\n## Credits\n- **Original project (`SwitchNOW`)**: [Blade-Punisher](https://github.com/Blade-Punisher)\n- **Nintendo Switch 2 port & `pt-BR` translation**: [David Kalil Braga (@davidkalil10)](https://github.com/davidkalil10)\n\n\n**Full Changelog**: https://github.com/davidkalil10/Switch2NOW/commits/v1.3.0"
     },
     {
       "id": "green-nx-switch2",
       "repo": "davidkalil10/green-nx_switch-2",
       "title": "green-nx (Switch 2)",
       "category": "switch2",
-      "platforms": ["switch2", "switch1"],
-      "platformLabels": ["Switch 2", "Switch 1"],
+      "platforms": [
+        "switch2",
+        "switch1"
+      ],
+      "platformLabels": [
+        "Switch 2",
+        "Switch 1"
+      ],
       "image": "assets/projects/green-nx-switch2.jpg",
-      "version": "v1.0.31-sw2",
+      "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 35,
-      "badge": { "pt": "Cloud Gaming", "en": "Cloud Gaming" },
+      "downloads": 37,
+      "badge": {
+        "pt": "Cloud Gaming",
+        "en": "Cloud Gaming"
+      },
       "summary": {
         "pt": "Cliente open-source de Xbox Cloud Gaming (xCloud) para Nintendo Switch 2 e Switch 1. Streaming nativo via WebRTC em 720p/1080p HQ com decodificação H.264 por hardware e renderização GPU zero-copy.",
         "en": "Open-source Xbox Cloud Gaming (xCloud) client for Nintendo Switch 2 & Switch 1. Standalone WebRTC streaming at 720p/1080p HQ with hardware H.264 decoding and zero-copy GPU rendering."
       },
       "note": {
-        "title": { "pt": "Como usar", "en": "How to use" },
+        "title": {
+          "pt": "Como usar",
+          "en": "How to use"
+        },
         "body": {
           "pt": "Faça login com sua conta Microsoft (device-code) diretamente no console — não requer PC nem aplicativo auxiliar.",
           "en": "Sign in with your Microsoft account via device-code directly on the console — no companion app or PC required."
@@ -362,36 +567,57 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar green-nx-switch2.nro", "en": "Download green-nx-switch2.nro" },
+        "label": {
+          "pt": "Baixar green-nx-switch2.nro",
+          "en": "Download green-nx-switch2.nro"
+        },
         "url": "https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro"
       },
       "assets": [
-        { "name": "green-nx-switch2.nro", "url": "https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro" },
-        { "name": "green-nx.nro (Switch 1)", "url": "https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx.nro" }
+        {
+          "name": "green-nx-switch2.nro",
+          "url": "https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx-switch2.nro"
+        },
+        {
+          "name": "green-nx.nro",
+          "url": "https://github.com/davidkalil10/green-nx_switch-2/releases/download/v1.0.31pre1-switch2/green-nx.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/green-nx_switch-2/releases/tag/v1.0.31pre1-switch2",
       "sourceUrl": "https://github.com/davidkalil10/green-nx_switch-2",
-      "releaseNotes": "Nintendo Switch 2 port built with ounce-devkit / libounce / OunceVK OpenGL ES and hardware H.264 decoder (GSV1/viddec), compatible with ounce-hbmenu and kaiHEN."
+      "releaseNotes": "## Downloads\n- **Nintendo Switch 2**: `green-nx-switch2.nro` (compatible with `hbmenu` / `ounce-hbmenu` and `kaiHEN`)\n- **Nintendo Switch 1**: `green-nx.nro`\n- **Checksums**: `SHA256SUMS.txt`\n\n## Credits\n- **Nintendo Switch 2 port (`ounce-devkit` / `libounce` / `OunceVK` OpenGL ES + hardware H.264 decoder)**: [David Kalil Braga (@davidkalil10)](https://github.com/davidkalil10)\n- **Original project (`green-nx`)**: Thanks to [rmrf404](https://github.com/rmrf404) and [rmrf404/green-nx](https://github.com/rmrf404/green-nx)\n\n\n**Full Changelog**: https://github.com/davidkalil10/green-nx_switch-2/commits/v1.0.31pre1-switch2"
     },
     {
       "id": "ns2toolkit",
       "repo": "davidkalil10/NS2ToolKit",
       "title": "NS2ToolKit",
       "category": "switch2",
-      "platforms": ["switch2", "multi"],
-      "platformLabels": ["Windows", "Switch 2"],
+      "platforms": [
+        "switch2",
+        "multi"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Switch 2"
+      ],
       "image": "assets/projects/ns2toolkit.svg",
       "version": "v0.1.10",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 28,
-      "badge": { "pt": "Ferramenta", "en": "Tool" },
+      "downloads": 34,
+      "badge": {
+        "pt": "Ferramenta",
+        "en": "Tool"
+      },
       "summary": {
         "pt": "Assistente portátil para Windows que facilita executar o ns2jb no SmileBASIC, ativar homebrew (kaiHEN), fazer backup/restauração de saves e jogos do Nintendo Switch 2 e gerar pacotes NUP no PC.",
         "en": "Portable Windows assistant to run ns2jb on SmileBASIC, activate Switch 2 homebrew (kaiHEN), back up/restore Nintendo Switch 2 saves and games, and generate NUP packages on PC."
       },
       "note": {
-        "title": { "pt": "Pacote portátil", "en": "Portable package" },
+        "title": {
+          "pt": "Pacote portátil",
+          "en": "Portable package"
+        },
         "body": {
           "pt": "Inclui Node, Python e todas as DLLs necessárias. Extraia o ZIP em uma pasta nova no Windows 10/11 x64 e execute Abrir NS2.cmd.",
           "en": "Bundles Node, Python, and all required DLLs. Extract the ZIP to a writable folder on Windows 10/11 x64 and run Abrir NS2.cmd."
@@ -399,36 +625,57 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar NS2ToolKit-v0.1.10-win-x64.zip", "en": "Download NS2ToolKit-v0.1.10-win-x64.zip" },
+        "label": {
+          "pt": "Baixar NS2ToolKit-v0.1.10-win-x64.zip",
+          "en": "Download NS2ToolKit-v0.1.10-win-x64.zip"
+        },
         "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.10/NS2ToolKit-v0.1.10-win-x64.zip"
       },
       "assets": [
-        { "name": "NS2ToolKit-v0.1.10-win-x64.zip", "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.10/NS2ToolKit-v0.1.10-win-x64.zip" },
-        { "name": "NS2ToolKit-v0.1.10-win-x64.zip.sha256", "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.10/NS2ToolKit-v0.1.10-win-x64.zip.sha256" }
+        {
+          "name": "NS2ToolKit-v0.1.10-win-x64.zip",
+          "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.10/NS2ToolKit-v0.1.10-win-x64.zip"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/NS2ToolKit/releases/tag/v0.1.10",
       "sourceUrl": "https://github.com/davidkalil10/NS2ToolKit",
-      "releaseNotes": "Ativação de homebrew pela mesma conexão 4/4 mantida aberta, etapas guiadas para kaiHEN + hbmenu, backup/restauração de saves com pré-backup automático e validação em console real."
+      "releaseNotes": "# NS2ToolKit 0.1.10\n\nAtive o homebrew pela mesma conexão 4/4 usada na tela inicial, sem repetir os comandos no SmileBASIC.\n\n- Botão **Ativar Homebrew** disponível quando a conexão compatível está mantida aberta.\n- Etapas guiadas para aguardar kaiHEN, fechar SmileBASIC sem reiniciar e abrir um jogo nativo de Switch 2 segurando R para entrar no hbmenu.\n- Corrige a validação da prova FS, que recusava sessões saudáveis ao procurar a confirmação de restauração fora das duas tentativas detalhadas.\n- Mantém exclusividade da sessão durante a ativação e os registros de falhas; depois de ativar homebrew, reinicie antes de voltar a backups ou FTP.\n- Ativação pela conexão mantida e abertura do hbmenu confirmadas em console. A limpeza do endpoint FS após fechar o SmileBASIC registrou erro no teste; os registros são preservados e isso não foi tratado como limpeza concluída.\n\nO portátil Windows x64 inc…"
     },
     {
       "id": "heroes-lore-1",
       "repo": "davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp",
       "title": "Heroes Lore: Wind of Soltia",
       "category": "recomps",
-      "platforms": ["multi", "switch1", "switch2"],
-      "platformLabels": ["Windows", "Linux", "Android", "Switch 1", "Switch 2"],
+      "platforms": [
+        "multi",
+        "switch1",
+        "switch2"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Linux",
+        "Android",
+        "Switch 1",
+        "Switch 2"
+      ],
       "image": "assets/projects/heroes-lore-1.jpg",
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 274,
-      "badge": { "pt": "Recompilação", "en": "Recompilation" },
+      "downloads": 431,
+      "badge": {
+        "pt": "Recompilação",
+        "en": "Recompilation"
+      },
       "summary": {
         "pt": "Recompilação nativa em C++17 + SDL2 do clássico RPG J2ME Heroes Lore: Wind of Soltia. Executa o bytecode original decompilado com fidelidade determinística em Windows, Linux, Android, Switch e Switch 2.",
         "en": "Native C++17 + SDL2 recompilation of the classic J2ME RPG Heroes Lore: Wind of Soltia. Executes decompiled original bytecode deterministically on Windows, Linux, Android, Switch 1, and Switch 2."
       },
       "note": {
-        "title": { "pt": "Multiplataforma + Idiomas", "en": "Cross-Platform + Languages" },
+        "title": {
+          "pt": "Multiplataforma + Idiomas",
+          "en": "Cross-Platform + Languages"
+        },
         "body": {
           "pt": "100% jogável com saves funcionando e suporte aos idiomas PT-BR, EN, IT e ES. Builds prontas para Android, Windows, Linux, Switch 1 e Switch 2.",
           "en": "100% playable with working saves and PT-BR, EN, IT & ES language support. Ready-to-run builds for Android, Windows, Linux, Switch 1, and Switch 2."
@@ -436,39 +683,77 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar Android (arm64.apk)", "en": "Download Android (arm64.apk)" },
-        "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_android_arm64.apk"
+        "label": {
+          "pt": "Baixar heroes_lore.exe",
+          "en": "Download heroes_lore.exe"
+        },
+        "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore.exe"
       },
       "assets": [
-        { "name": "heroes_lore_switch2.nro (Switch 2)", "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_switch2.nro" },
-        { "name": "heroes_lore.nro (Switch 1)", "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore.nro" },
-        { "name": "heroes_lore_windows_x64.zip", "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_windows_x64.zip" },
-        { "name": "heroes_lore_linux_x86_64.AppImage", "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_linux_x86_64.AppImage" },
-        { "name": "heroes_lore_android_arm64.apk", "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_android_arm64.apk" }
+        {
+          "name": "heroes_lore.exe",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore.exe"
+        },
+        {
+          "name": "heroes_lore.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore.nro"
+        },
+        {
+          "name": "heroes_lore_android_arm64.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_android_arm64.apk"
+        },
+        {
+          "name": "heroes_lore_android_universal.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_android_universal.apk"
+        },
+        {
+          "name": "heroes_lore_linux_x86_64.AppImage",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_linux_x86_64.AppImage"
+        },
+        {
+          "name": "heroes_lore_switch2.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/download/v1.2.8/heroes_lore_switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/releases/tag/v1.2.8",
       "sourceUrl": "https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp",
-      "releaseNotes": "Adicionado heroes_lore_switch2.nro compilado com ounce-devkit para kaiHEN/ounce-hbmenu (testado em console real), preservando os binários de Windows, Linux, Android e Switch 1."
+      "releaseNotes": "**Full Changelog**: https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/compare/v1.2.7...v1.2.8\n\n\n### Nintendo Switch 2\n\nAdicionado **`heroes_lore_switch2.nro`**, compilado com ounce-devkit 20261115 para executar com kaiHEN/ounce-hbmenu. Inclui os recursos do jogo no RomFS. A build foi enviada pelo Netloader e aprovada no console. Os arquivos das outras plataformas foram preservados.\n\nSHA-256: `ebe6c34957e36a3a208067a4eefee8d13d1af072f3438b8451fb51b7906fe43f`. O arquivo `.sha256` acompanha o NRO.\n\n[Código-fonte exato desta build](https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/archive/daa804a4326ac75549ae8a15867c2222d2bd0b40.zip) · [Instruções de Switch 2 e builds automáticas](https://github.com/davidkalil10/Heroes-Lore-Wind-Of-Soltia-Recomp/blob/main/docs/SWITCH2.md)."
     },
     {
       "id": "heroes-lore-2",
       "repo": "davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp",
       "title": "Heroes Lore 2: Knight of Frozen Sea",
       "category": "recomps",
-      "platforms": ["multi", "switch1", "switch2"],
-      "platformLabels": ["Windows", "Linux", "Android", "Switch 1", "Switch 2"],
+      "platforms": [
+        "multi",
+        "switch1",
+        "switch2"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Linux",
+        "Android",
+        "Switch 1",
+        "Switch 2"
+      ],
       "image": "assets/projects/heroes-lore-2.png",
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 160,
-      "badge": { "pt": "Recompilação", "en": "Recompilation" },
+      "downloads": 205,
+      "badge": {
+        "pt": "Recompilação",
+        "en": "Recompilation"
+      },
       "summary": {
         "pt": "Recompilação nativa multiplataforma de Heroes Lore 2: The Knight of Frozen Sea com builds disponíveis para Android, Windows, Linux, Nintendo Switch 1 e Nintendo Switch 2.",
         "en": "Multiplatform native recompilation of Heroes Lore 2: The Knight of Frozen Sea with builds available for Android, Windows, Linux, Nintendo Switch 1, and Nintendo Switch 2."
       },
       "note": {
-        "title": { "pt": "Suporte a Nintendo Switch 2", "en": "Nintendo Switch 2 Support" },
+        "title": {
+          "pt": "Suporte a Nintendo Switch 2",
+          "en": "Nintendo Switch 2 Support"
+        },
         "body": {
           "pt": "Inclui build dedicada heroes_lore_2_switch2.nro com recursos no RomFS, validada em hardware real via kaiHEN/ounce-hbmenu.",
           "en": "Includes dedicated heroes_lore_2_switch2.nro build with bundled RomFS assets, verified on real Switch 2 hardware."
@@ -476,39 +761,77 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar Android (arm64.apk)", "en": "Download Android (arm64.apk)" },
-        "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_android_arm64.apk"
+        "label": {
+          "pt": "Baixar heroes_lore_2.exe",
+          "en": "Download heroes_lore_2.exe"
+        },
+        "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2.exe"
       },
       "assets": [
-        { "name": "heroes_lore_2_switch2.nro (Switch 2)", "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_switch2.nro" },
-        { "name": "heroes_lore_2.nro (Switch 1)", "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2.nro" },
-        { "name": "heroes_lore_2_windows_x64.zip", "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_windows_x64.zip" },
-        { "name": "heroes_lore_2_linux_x86_64.AppImage", "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_linux_x86_64.AppImage" },
-        { "name": "heroes_lore_2_android_arm64.apk", "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_android_arm64.apk" }
+        {
+          "name": "heroes_lore_2.exe",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2.exe"
+        },
+        {
+          "name": "heroes_lore_2.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2.nro"
+        },
+        {
+          "name": "heroes_lore_2_android_arm64.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_android_arm64.apk"
+        },
+        {
+          "name": "heroes_lore_2_android_universal.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_android_universal.apk"
+        },
+        {
+          "name": "heroes_lore_2_linux_x86_64.AppImage",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_linux_x86_64.AppImage"
+        },
+        {
+          "name": "heroes_lore_2_switch2.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/download/v0.2.18/heroes_lore_2_switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/releases/tag/v0.2.18",
       "sourceUrl": "https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp",
-      "releaseNotes": "Adicionado heroes_lore_2_switch2.nro compilado com ounce-devkit para kaiHEN/ounce-hbmenu, mantendo builds para Android, Windows, Linux e Switch 1."
+      "releaseNotes": "**Full Changelog**: https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/compare/v0.2.17...v0.2.18\n\n\n### Nintendo Switch 2\n\nAdicionado **`heroes_lore_2_switch2.nro`**, compilado com ounce-devkit 20261115 para executar com kaiHEN/ounce-hbmenu. Inclui os recursos do jogo no RomFS. A build foi enviada pelo Netloader e aprovada no console. Os arquivos das outras plataformas foram preservados.\n\nSHA-256: `8e47db5f335f04ceed3dc8f680f632ec18afa9c98a3503774613ba08457c8b56`. O arquivo `.sha256` acompanha o NRO.\n\n[Código-fonte exato desta build](https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/archive/8fdacddf573a36a7798db9b2e135056c75d7e9b2.zip) · [Instruções de Switch 2 e builds automáticas](https://github.com/davidkalil10/Heroes-Lore-2-The-Knight-of-Frozen_Sea-Recomp/blob/main/docs/SWITCH2.md)."
     },
     {
       "id": "heroes-lore-3",
       "repo": "davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia",
       "title": "Heroes Lore 3: Stigmata of Gaia",
       "category": "recomps",
-      "platforms": ["multi", "switch1", "switch2"],
-      "platformLabels": ["Windows", "Linux", "Android", "Switch 1", "Switch 2"],
+      "platforms": [
+        "multi",
+        "switch1",
+        "switch2"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Linux",
+        "Android",
+        "Switch 1",
+        "Switch 2"
+      ],
       "image": "assets/projects/heroes-lore-3.png",
       "version": "v1.0.8",
       "updatedAt": "2026-11-15",
       "stars": 0,
-      "downloads": 94,
-      "badge": { "pt": "Recompilação", "en": "Recompilation" },
+      "downloads": 95,
+      "badge": {
+        "pt": "Recompilação",
+        "en": "Recompilation"
+      },
       "summary": {
         "pt": "Recompilação nativa em C++ de Heroes Lore 3: Stigmata of Gaia para Windows, Linux, Android, Nintendo Switch 1 e Nintendo Switch 2, com auto-updater OTA integrado.",
         "en": "Native C++ recompilation of Heroes Lore 3: Stigmata of Gaia for Windows, Linux, Android, Nintendo Switch 1, and Nintendo Switch 2, featuring built-in OTA auto-updates."
       },
       "note": {
-        "title": { "pt": "Multiplataforma + Switch 2", "en": "Cross-Platform + Switch 2" },
+        "title": {
+          "pt": "Multiplataforma + Switch 2",
+          "en": "Cross-Platform + Switch 2"
+        },
         "body": {
           "pt": "Builds prontas para Switch 2 (heroes_lore_3_switch2.nro), Switch 1, Android, Windows e Linux.",
           "en": "Ready-to-run builds for Switch 2 (heroes_lore_3_switch2.nro), Switch 1, Android, Windows, and Linux."
@@ -516,39 +839,77 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar Android (arm64.apk)", "en": "Download Android (arm64.apk)" },
-        "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_android_arm64.apk"
+        "label": {
+          "pt": "Baixar HeroesLore3.exe",
+          "en": "Download HeroesLore3.exe"
+        },
+        "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/HeroesLore3.exe"
       },
       "assets": [
-        { "name": "heroes_lore_3_switch2.nro (Switch 2)", "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_switch2.nro" },
-        { "name": "heroes_lore_3.nro (Switch 1)", "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3.nro" },
-        { "name": "heroes_lore_3_windows_x64.zip", "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_windows_x64.zip" },
-        { "name": "heroes_lore_3_linux_x86_64.AppImage", "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_linux_x86_64.AppImage" },
-        { "name": "heroes_lore_3_android_arm64.apk", "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_android_arm64.apk" }
+        {
+          "name": "HeroesLore3.exe",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/HeroesLore3.exe"
+        },
+        {
+          "name": "heroes_lore_3.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3.nro"
+        },
+        {
+          "name": "heroes_lore_3_android_arm64.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_android_arm64.apk"
+        },
+        {
+          "name": "heroes_lore_3_android_universal.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_android_universal.apk"
+        },
+        {
+          "name": "heroes_lore_3_linux_x86_64.AppImage",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_linux_x86_64.AppImage"
+        },
+        {
+          "name": "heroes_lore_3_switch2.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/download/v1.0.8/heroes_lore_3_switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia/releases/tag/v1.0.8",
       "sourceUrl": "https://github.com/davidkalil10/Heroes-Lore-3-Stigmata-of-Gaia",
-      "releaseNotes": "Multiplatform release v1.0.8 with Switch 2 (heroes_lore_3_switch2.nro), Switch 1, Windows, Linux, and Android builds plus end-to-end OTA auto-update support."
+      "releaseNotes": "## Heroes Lore 3: Stigmata of Gaia Recomp `v1.0.8`\n\n### What's New in `v1.0.8` (`Android versionCode 9`)\n- **Version Bump for Switch OTA Verification Release**:\n  - Clean multiplatform verification release (`v1.0.8`, `Android versionCode 9`) following `v1.0.7`, enabling live end-to-end auto-update & `envSetNextLoad` relaunch testing directly from the Nintendo Switch `v1.0.7` homebrew build (as well as Windows, Linux, and Android).\n\n## Heroes Lore 3: Stigmata of Gaia Recomp `v1.0.7`\n\n### What's New in `v1.0.7` (`Android versionCode 8`)\n- **Nintendo Switch Automatic In-App Update & Relaunch (`.nro` + `envSetNextLoad`)**:\n  - Replaced the manual staging fallback on Nintendo Switch with `install_portable_nro_update`: streams the downloaded `.nro` via `stdio` (`fread`/`fwrite`), validates the `NRO0` header magic, size, and SHA-256 before touching the active executable, flushes saves/configs a…"
     },
     {
       "id": "heroes-lore-zero",
       "repo": "davidkalil10/Heroes-Lore-Zero-Recomp",
       "title": "Heroes Lore Zero",
       "category": "recomps",
-      "platforms": ["multi", "switch1", "switch2"],
-      "platformLabels": ["Windows", "Linux", "Android", "Switch 1", "Switch 2"],
+      "platforms": [
+        "multi",
+        "switch1",
+        "switch2"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Linux",
+        "Android",
+        "Switch 1",
+        "Switch 2"
+      ],
       "image": "assets/projects/heroes-lore-zero.png",
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 326,
-      "badge": { "pt": "Recompilação", "en": "Recompilation" },
+      "downloads": 327,
+      "badge": {
+        "pt": "Recompilação",
+        "en": "Recompilation"
+      },
       "summary": {
         "pt": "Recompilação nativa multiplataforma de Heroes Lore Zero com suporte completo a Windows, Linux, Android, Nintendo Switch 1 e Nintendo Switch 2.",
         "en": "Multiplatform native recompilation of Heroes Lore Zero with full support for Windows, Linux, Android, Nintendo Switch 1, and Nintendo Switch 2."
       },
       "note": {
-        "title": { "pt": "Suporte a Nintendo Switch 2", "en": "Nintendo Switch 2 Support" },
+        "title": {
+          "pt": "Suporte a Nintendo Switch 2",
+          "en": "Nintendo Switch 2 Support"
+        },
         "body": {
           "pt": "Inclui build dedicada heroes_lore_zero_switch2.nro com recursos no RomFS, validada em hardware real via kaiHEN/ounce-hbmenu.",
           "en": "Includes dedicated heroes_lore_zero_switch2.nro build with bundled RomFS assets, verified on real Switch 2 hardware."
@@ -556,39 +917,75 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar Android (arm64.apk)", "en": "Download Android (arm64.apk)" },
-        "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_android_arm64.apk"
+        "label": {
+          "pt": "Baixar heroes_lore_zero.exe",
+          "en": "Download heroes_lore_zero.exe"
+        },
+        "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero.exe"
       },
       "assets": [
-        { "name": "heroes_lore_zero_switch2.nro (Switch 2)", "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_switch2.nro" },
-        { "name": "heroes_lore_zero.nro (Switch 1)", "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero.nro" },
-        { "name": "heroes_lore_zero_windows_x64.zip", "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_windows_x64.zip" },
-        { "name": "heroes_lore_zero_linux_x86_64.AppImage", "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_linux_x86_64.AppImage" },
-        { "name": "heroes_lore_zero_android_arm64.apk", "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_android_arm64.apk" }
+        {
+          "name": "heroes_lore_zero.exe",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero.exe"
+        },
+        {
+          "name": "heroes_lore_zero.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero.nro"
+        },
+        {
+          "name": "heroes_lore_zero_android_arm64.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_android_arm64.apk"
+        },
+        {
+          "name": "heroes_lore_zero_android_universal.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_android_universal.apk"
+        },
+        {
+          "name": "heroes_lore_zero_linux_x86_64.AppImage",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_linux_x86_64.AppImage"
+        },
+        {
+          "name": "heroes_lore_zero_switch2.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/download/v1.0.18/heroes_lore_zero_switch2.nro"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/releases/tag/v1.0.18",
       "sourceUrl": "https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp",
-      "releaseNotes": "Adicionado heroes_lore_zero_switch2.nro compilado com ounce-devkit para kaiHEN/ounce-hbmenu (aprovado em console real), preservando as builds de Windows, Linux, Android e Switch 1."
+      "releaseNotes": "**Full Changelog**: https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/compare/v1.0.17...v1.0.18\n\n\n### Nintendo Switch 2\n\nAdicionado **`heroes_lore_zero_switch2.nro`**, compilado com ounce-devkit 20261115 para executar com kaiHEN/ounce-hbmenu. Inclui os recursos do jogo no RomFS. A build foi enviada pelo Netloader e aprovada no console. Os arquivos das outras plataformas foram preservados.\n\nSHA-256: `40a327fcfcc31a91df35f4180ea7dc181faac15e51e2f7fa59a35f5ff2177b5f`. O arquivo `.sha256` acompanha o NRO.\n\n[Código-fonte exato desta build](https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/archive/85213ea50bebe5c7658aa069f633d0a0601c1469.zip) · [Instruções de Switch 2 e builds automáticas](https://github.com/davidkalil10/Heroes-Lore-Zero-Recomp/blob/main/docs/SWITCH2.md)."
     },
     {
       "id": "heroes-lore-5",
       "repo": "davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp",
       "title": "Heroes Lore 5: Covenant of Darkness",
       "category": "recomps",
-      "platforms": ["multi", "switch1"],
-      "platformLabels": ["Windows", "Linux", "Android", "Switch 1"],
+      "platforms": [
+        "multi",
+        "switch1"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Linux",
+        "Android",
+        "Switch 1"
+      ],
       "image": "assets/projects/heroes-lore-5.jpg",
       "version": "v1.1.6",
       "updatedAt": "2026-10-21",
       "stars": 4,
       "downloads": 86,
-      "badge": { "pt": "Recompilação", "en": "Recompilation" },
+      "badge": {
+        "pt": "Recompilação",
+        "en": "Recompilation"
+      },
       "summary": {
         "pt": "Recompilação nativa multiplataforma de Heroes Lore 5: Covenant of Darkness com PT-BR/EN, cloud save no Google Drive, atualizações pelo GitHub e otimizações ARM para Nintendo Switch 1.",
         "en": "Multiplatform native recompilation of Heroes Lore 5: Covenant of Darkness featuring PT-BR/EN, Google Drive cloud saves, GitHub auto-updates, and ARM optimizations for Nintendo Switch 1."
       },
       "note": {
-        "title": { "pt": "Status de plataformas", "en": "Platform status" },
+        "title": {
+          "pt": "Status de plataformas",
+          "en": "Platform status"
+        },
         "body": {
           "pt": "Compatível com Windows, Linux, Android e Nintendo Switch 1 (heroes_lore_5.nro); ainda não adaptado para Nintendo Switch 2.",
           "en": "Supports Windows, Linux, Android, and Nintendo Switch 1 (heroes_lore_5.nro); not yet adapted for Nintendo Switch 2."
@@ -596,39 +993,74 @@
       },
       "primaryAction": {
         "type": "download",
-        "label": { "pt": "Baixar Android (arm64.apk)", "en": "Download Android (arm64.apk)" },
-        "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_android_arm64.apk"
+        "label": {
+          "pt": "Baixar heroes_lore_5.exe",
+          "en": "Download heroes_lore_5.exe"
+        },
+        "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5.exe"
       },
       "assets": [
-        { "name": "heroes_lore_5.nro (Switch 1)", "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5.nro" },
-        { "name": "heroes_lore_5_windows_x64.zip", "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_windows_x64.zip" },
-        { "name": "heroes_lore_5_linux_x86_64.AppImage", "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_linux_x86_64.AppImage" },
-        { "name": "heroes_lore_5_android_arm64.apk", "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_android_arm64.apk" },
-        { "name": "heroes_lore_5_android_universal.apk", "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_android_universal.apk" }
+        {
+          "name": "heroes_lore_5.exe",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5.exe"
+        },
+        {
+          "name": "heroes_lore_5.nro",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5.nro"
+        },
+        {
+          "name": "heroes_lore_5_android_arm64.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_android_arm64.apk"
+        },
+        {
+          "name": "heroes_lore_5_android_universal.apk",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_android_universal.apk"
+        },
+        {
+          "name": "heroes_lore_5_linux_x86_64.AppImage",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_linux_x86_64.AppImage"
+        },
+        {
+          "name": "heroes_lore_5_windows_x64.zip",
+          "url": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/download/v1.1.6/heroes_lore_5_windows_x64.zip"
+        }
       ],
       "releaseUrl": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp/releases/tag/v1.1.6",
       "sourceUrl": "https://github.com/davidkalil10/Heroes-Lore-5-Covenant-of-Darkness-Recomp",
-      "releaseNotes": "Otimizações de desempenho no Nintendo Switch 1 (desfoque RGB565 nativo, 14 regiões ARM compiladas e redução de gravações no cartão SD), mantendo builds de Windows, Linux e Android."
+      "releaseNotes": "## Heroes Lore 5 — v1.1.6\n\nOtimizações para investigar e reduzir a lentidão geral relatada no Nintendo Switch, inclusive as pausas ao abrir o menu.\n\n- Desfoque do menu RGB565 executado nativamente, preservando os pixels e o estado original ao final de cada linha.\n- Sete novas regiões ARM compiladas: sprites espelhados, transparências, paletas, recorte e efeitos do mapa. Agora são 14 regiões.\n- Menos gravações recorrentes no cartão SD durante o jogo; erros e informações de inicialização continuam disponíveis.\n- Build Switch com O3, seguindo a otimização já usada no PC/Android.\n- Log de desempenho no Switch a cada dez segundos, separando entrada, execução do jogo e apresentação/espera.\n- Versão **1.1.6**, Android **versionCode 8**; assinatura, saves e login preservados.\n\n### Validação e limites\n\nAs verificações no PC comparam 28 estados ARM, quadros completos, áudio, localização, proporçõe…"
     },
     {
       "id": "tamawhere",
       "repo": "davidkalil10/TamaWhere_Website",
       "title": "TamaWhere",
       "category": "flutter",
-      "platforms": ["multi"],
-      "platformLabels": ["Steam", "Windows", "Meta Quest", "Android & WearOS"],
+      "platforms": [
+        "multi"
+      ],
+      "platformLabels": [
+        "Steam",
+        "Windows",
+        "Meta Quest",
+        "Android & WearOS"
+      ],
       "image": "assets/projects/tamawhere.png",
       "version": "Flutter App",
       "updatedAt": "2026-10-05",
       "stars": 1,
       "downloads": 0,
-      "badge": { "pt": "Jogo / App", "en": "Game / App" },
+      "badge": {
+        "pt": "Jogo / App",
+        "en": "Game / App"
+      },
       "summary": {
         "pt": "Seu Pet. Sua Aventura. Sempre com Você! Experiência de pet virtual multiplataforma disponível no Google Play (Android & WearOS), Meta Horizon Store (Quest), Steam e Microsoft Store.",
         "en": "Your Pet. Your Adventure. Always With You! Cross-platform virtual pet experience available on Google Play (Android & WearOS), Meta Horizon Store (Quest), Steam, and Microsoft Store."
       },
       "note": {
-        "title": { "pt": "Disponível em várias lojas", "en": "Available on multiple stores" },
+        "title": {
+          "pt": "Disponível em várias lojas",
+          "en": "Available on multiple stores"
+        },
         "body": {
           "pt": "Lançado oficialmente na Google Play, Meta Horizon Store (Meta Quest), Steam e Microsoft Store.",
           "en": "Officially available on Google Play, Meta Horizon Store (Meta Quest), Steam, and Microsoft Store."
@@ -636,14 +1068,29 @@
       },
       "primaryAction": {
         "type": "link",
-        "label": { "pt": "Abrir site oficial", "en": "Open official site" },
+        "label": {
+          "pt": "Abrir site oficial",
+          "en": "Open official site"
+        },
         "url": "https://tamawhere.netlify.app/"
       },
       "stores": [
-        { "name": "Google Play (Android & WearOS)", "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.tamawhere" },
-        { "name": "Meta Store (Meta Quest)", "url": "https://www.meta.com/pt-br/experiences/tamawhere/1620772423042196/" },
-        { "name": "Steam (Windows PC)", "url": "https://store.steampowered.com/app/5233230/TamaWhere/" },
-        { "name": "Microsoft Store (Windows)", "url": "https://apps.microsoft.com/detail/9mxcjn23mzp7?hl=pt-BR&gl=BR" }
+        {
+          "name": "Google Play (Android & WearOS)",
+          "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.tamawhere"
+        },
+        {
+          "name": "Meta Store (Meta Quest)",
+          "url": "https://www.meta.com/pt-br/experiences/tamawhere/1620772423042196/"
+        },
+        {
+          "name": "Steam (Windows PC)",
+          "url": "https://store.steampowered.com/app/5233230/TamaWhere/"
+        },
+        {
+          "name": "Microsoft Store (Windows)",
+          "url": "https://apps.microsoft.com/detail/9mxcjn23mzp7?hl=pt-BR&gl=BR"
+        }
       ],
       "sourceUrl": "https://github.com/davidkalil10/TamaWhere_Website"
     },
@@ -652,28 +1099,53 @@
       "repo": "davidkalil10/IPTV-Smart-Cast-Website",
       "title": "IPTV Smart Cast",
       "category": "flutter",
-      "platforms": ["multi"],
-      "platformLabels": ["Windows", "Android TV", "Meta Quest", "Samsung TV"],
+      "platforms": [
+        "multi"
+      ],
+      "platformLabels": [
+        "Windows",
+        "Android TV",
+        "Meta Quest",
+        "Samsung TV"
+      ],
       "image": "assets/projects/iptv-smart-cast.png",
       "version": "Flutter App",
       "updatedAt": "2026-08-21",
       "stars": 0,
       "downloads": 0,
-      "badge": { "pt": "App Multi", "en": "Cross-Platform" },
+      "badge": {
+        "pt": "App Multi",
+        "en": "Cross-Platform"
+      },
       "summary": {
         "pt": "Media player multiplataforma em Flutter com suporte a Chromecast, aceleração por hardware, DNS switcher integrado (Google, Cloudflare, AdGuard), catálogo VOD e reprodução sincronizada.",
         "en": "Cross-platform Flutter media player featuring Chromecast casting, hardware-accelerated decoding, built-in DNS switcher, rich VOD library, and synchronized playback."
       },
       "primaryAction": {
         "type": "link",
-        "label": { "pt": "Abrir site oficial", "en": "Open official site" },
+        "label": {
+          "pt": "Abrir site oficial",
+          "en": "Open official site"
+        },
         "url": "https://davidkalil10.github.io/IPTV-Smart-Cast-Website/"
       },
       "stores": [
-        { "name": "Google Play (Android / TV)", "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.iptv_smart_cast" },
-        { "name": "Meta Store (Meta Quest)", "url": "https://www.meta.com/pt-br/experiences/iptv-smart-cast/26640004612256022/" },
-        { "name": "Microsoft Store (Windows)", "url": "https://apps.microsoft.com/detail/9PP166K3P424?hl=pt-br&gl=BR&ocid=pdpshare" },
-        { "name": "Samsung TV Apps", "url": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-apps-detail/?appId=3202601043463" }
+        {
+          "name": "Google Play (Android / TV)",
+          "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.iptv_smart_cast"
+        },
+        {
+          "name": "Meta Store (Meta Quest)",
+          "url": "https://www.meta.com/pt-br/experiences/iptv-smart-cast/26640004612256022/"
+        },
+        {
+          "name": "Microsoft Store (Windows)",
+          "url": "https://apps.microsoft.com/detail/9PP166K3P424?hl=pt-br&gl=BR&ocid=pdpshare"
+        },
+        {
+          "name": "Samsung TV Apps",
+          "url": "https://www.samsung.com/us/tvs/smart-tv/samsung-tv-apps-detail/?appId=3202601043463"
+        }
       ],
       "sourceUrl": "https://github.com/davidkalil10/IPTV-Smart-Cast-Website"
     },
@@ -682,25 +1154,39 @@
       "repo": "davidkalil10/SimulacaoSemIlusao_Website",
       "title": "Simulação Sem Ilusão",
       "category": "flutter",
-      "platforms": ["multi"],
-      "platformLabels": ["Android", "Flutter"],
+      "platforms": [
+        "multi"
+      ],
+      "platformLabels": [
+        "Android",
+        "Flutter"
+      ],
       "image": "assets/projects/simulacao-sem-ilusao.png",
       "version": "Flutter App",
       "updatedAt": "2026-08-05",
       "stars": 0,
       "downloads": 0,
-      "badge": { "pt": "Finanças", "en": "Finance" },
+      "badge": {
+        "pt": "Finanças",
+        "en": "Finance"
+      },
       "summary": {
         "pt": "Raio-x financeiro para compra de imóvel na planta: simula INCC mensal, evolução de obra, uso de FGTS, comparativo Caixa vs. outros bancos, gráficos de fluxo de caixa e relatórios em PDF.",
         "en": "Financial planner for buying off-plan real estate in Brazil: simulates monthly INCC adjustments, construction-phase fees, FGTS usage, bank comparisons, cash-flow charts, and PDF reports."
       },
       "primaryAction": {
         "type": "link",
-        "label": { "pt": "Abrir site oficial", "en": "Open official site" },
+        "label": {
+          "pt": "Abrir site oficial",
+          "en": "Open official site"
+        },
         "url": "https://davidkalil10.github.io/SimulacaoSemIlusao_Website/"
       },
       "stores": [
-        { "name": "Google Play (Android)", "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.simulacao_sem_ilusao" }
+        {
+          "name": "Google Play (Android)",
+          "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.simulacao_sem_ilusao"
+        }
       ],
       "sourceUrl": "https://github.com/davidkalil10/SimulacaoSemIlusao_Website"
     },
@@ -709,25 +1195,39 @@
       "repo": "davidkalil10/Retro-Smart-Cast-Website",
       "title": "Retro Smart Cast",
       "category": "flutter",
-      "platforms": ["multi"],
-      "platformLabels": ["Android", "Flutter + C++"],
+      "platforms": [
+        "multi"
+      ],
+      "platformLabels": [
+        "Android",
+        "Flutter + C++"
+      ],
       "image": "assets/projects/retro-smart-cast.png",
       "version": "Flutter App",
       "updatedAt": "2026-08-05",
       "stars": 0,
       "downloads": 0,
-      "badge": { "pt": "Emulador", "en": "Emulator" },
+      "badge": {
+        "pt": "Emulador",
+        "en": "Emulator"
+      },
       "summary": {
         "pt": "Emulador de GBA, GBC e GB a 60 FPS construído com Flutter e ponte Dart FFI em C++, com busca dinâmica na biblioteca, feedback háptico e suporte a PT, EN e ES.",
         "en": "60 FPS GBA, GBC, and GB emulator built with Flutter and C++ Dart FFI bridges, featuring dynamic library search, haptic controls, and EN/PT/ES localization."
       },
       "primaryAction": {
         "type": "link",
-        "label": { "pt": "Abrir site oficial", "en": "Open official site" },
+        "label": {
+          "pt": "Abrir site oficial",
+          "en": "Open official site"
+        },
         "url": "https://davidkalil10.github.io/Retro-Smart-Cast-Website/"
       },
       "stores": [
-        { "name": "Google Play (Android)", "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.retro_smart_cast" }
+        {
+          "name": "Google Play (Android)",
+          "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.retro_smart_cast"
+        }
       ],
       "sourceUrl": "https://github.com/davidkalil10/Retro-Smart-Cast-Website"
     },
@@ -736,26 +1236,44 @@
       "repo": "davidkalil10/Cifraria_Website",
       "title": "Cifraria",
       "category": "flutter",
-      "platforms": ["multi"],
-      "platformLabels": ["Android", "Windows", "Meta Quest"],
+      "platforms": [
+        "multi"
+      ],
+      "platformLabels": [
+        "Android",
+        "Windows",
+        "Meta Quest"
+      ],
       "image": "assets/projects/cifraria.png",
       "version": "Flutter App",
       "updatedAt": "2026-08-05",
       "stars": 0,
       "downloads": 0,
-      "badge": { "pt": "Música", "en": "Music" },
+      "badge": {
+        "pt": "Música",
+        "en": "Music"
+      },
       "summary": {
         "pt": "Gerenciador profissional de cifras e setlists em Flutter: transposição instantânea de tom, compartilhamento offline via QR Code animado, backup no Google Drive, importação PDF/DOCX e modo VR para Meta Quest.",
         "en": "Professional guitar chord library and setlist manager built with Flutter: instant key transposition, offline animated QR sharing, Google Drive sync, PDF/DOCX import, and Meta Quest VR mode."
       },
       "primaryAction": {
         "type": "link",
-        "label": { "pt": "Abrir site oficial", "en": "Open official site" },
+        "label": {
+          "pt": "Abrir site oficial",
+          "en": "Open official site"
+        },
         "url": "https://davidkalil10.github.io/Cifraria_Website/"
       },
       "stores": [
-        { "name": "Google Play (Android)", "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.cifraria" },
-        { "name": "Meta Store (Meta Quest)", "url": "https://www.meta.com/pt-br/experiences/cifraria/25589638260718796/" }
+        {
+          "name": "Google Play (Android)",
+          "url": "https://play.google.com/store/apps/details?id=com.xxfalcoonx.cifraria"
+        },
+        {
+          "name": "Meta Store (Meta Quest)",
+          "url": "https://www.meta.com/pt-br/experiences/cifraria/25589638260718796/"
+        }
       ],
       "sourceUrl": "https://github.com/davidkalil10/Cifraria_Website"
     },
@@ -764,21 +1282,32 @@
       "repo": "davidkalil10/BR-Smart-Ingredientes-Icons",
       "title": "BR Smart Ingredientes Icons",
       "category": "flutter",
-      "platforms": ["multi"],
-      "platformLabels": ["Flutter", "Dart Package"],
+      "platforms": [
+        "multi"
+      ],
+      "platformLabels": [
+        "Flutter",
+        "Dart Package"
+      ],
       "image": "assets/projects/br-smart-ingredientes.jpg",
       "version": "Package",
       "updatedAt": "2025-06-21",
       "stars": 1,
       "downloads": 0,
-      "badge": { "pt": "Pacote Dart", "en": "Dart Package" },
+      "badge": {
+        "pt": "Pacote Dart",
+        "en": "Dart Package"
+      },
       "summary": {
         "pt": "Biblioteca Flutter open-source (MIT) com mais de 235 ícones PNG exclusivos de alimentos e reconhecimento inteligente multilíngue de nomes e sinônimos de ingredientes.",
         "en": "Open-source (MIT) Flutter package with 235+ custom food & ingredient PNG icons and smart multilingual name/synonym matching."
       },
       "primaryAction": {
         "type": "link",
-        "label": { "pt": "Abrir demonstração", "en": "Open showcase" },
+        "label": {
+          "pt": "Abrir demonstração",
+          "en": "Open showcase"
+        },
         "url": "https://davidkalil10.github.io/BR-Smart-Ingredientes-Icons/"
       },
       "sourceUrl": "https://github.com/davidkalil10/BR-Smart-Ingredientes-Icons"

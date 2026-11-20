@@ -40,7 +40,7 @@ async function main() {
       project.updatedAt = repo.pushed_at.slice(0, 10);
     }
 
-    const releases = await ghJson(`https://api.github.com/repos/${project.repo}/releases?per_page=10`);
+    const releases = await ghJson(`https://api.github.com/repos/${project.repo}/releases?per_page=100`);
     if (Array.isArray(releases) && releases.length > 0) {
       let totalDownloads = 0;
       for (const rel of releases) {
@@ -55,6 +55,16 @@ async function main() {
       if (latest.html_url) project.releaseUrl = latest.html_url;
       if (latest.published_at && latest.published_at.slice(0, 10) > project.updatedAt) {
         project.updatedAt = latest.published_at.slice(0, 10);
+      }
+      if (latest.body) {
+        const cleaned = latest.body
+          .replace(/<!--[\s\S]*?-->/g, '')
+          .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, '')
+          .replace(/\r\n/g, '\n')
+          .trim();
+        if (cleaned) {
+          project.releaseNotes = cleaned.length > 900 ? cleaned.slice(0, 900).trimEnd() + '…' : cleaned;
+        }
       }
       if (Array.isArray(latest.assets) && latest.assets.length > 0) {
         const usable = latest.assets.filter((a) => !a.name.endsWith('.sha256') && a.name !== 'SHA256SUMS.txt');
