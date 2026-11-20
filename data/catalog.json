@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:42:18.978Z",
+  "generatedAt": "2026-11-20T18:50:26.516Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -87,8 +87,8 @@
       "image": "assets/projects/ppsspp-nx2.png",
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
-      "stars": 0,
-      "downloads": 42,
+      "stars": 1,
+      "downloads": 53,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 32,
+      "downloads": 38,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -250,7 +250,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 14,
-      "downloads": 58,
+      "downloads": 64,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -372,7 +372,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 37,
+      "downloads": 39,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -488,7 +488,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 34,
+      "downloads": 37,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -546,7 +546,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 40,
+      "downloads": 43,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -662,7 +662,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 432,
+      "downloads": 433,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -896,7 +896,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 328,
+      "downloads": 330,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
