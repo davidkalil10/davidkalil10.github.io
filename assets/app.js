@@ -32,7 +32,9 @@
       themeToLight: 'Mudar para tema claro',
       themeToDark: 'Mudar para tema escuro',
       downloadsSuffix: 'downloads',
-      lastSynced: (dt) => `Última sincronização: ${dt}`
+      lastSynced: (dt) => `Última sincronização: ${dt}`,
+      syncNow: 'Sincronizar',
+      syncing: 'Sincronizando…'
     },
     en: {
       pageTitle: 'David Kalil · Switch 2, Recompilations & Flutter',
@@ -64,7 +66,9 @@
       themeToLight: 'Switch to light theme',
       themeToDark: 'Switch to dark theme',
       downloadsSuffix: 'downloads',
-      lastSynced: (dt) => `Last synced: ${dt}`
+      lastSynced: (dt) => `Last synced: ${dt}`,
+      syncNow: 'Sync',
+      syncing: 'Syncing…'
     }
   };
 
@@ -89,6 +93,7 @@
     sortSelect: document.getElementById('sort-select'),
     resultCount: document.getElementById('result-count'),
     lastSynced: document.getElementById('last-synced'),
+    syncBtn: document.getElementById('sync-btn'),
     catalogGroups: document.getElementById('catalog-groups'),
     themeToggle: document.getElementById('theme-toggle'),
     langToggle: document.getElementById('lang-toggle'),
@@ -624,6 +629,10 @@
       if (e.target === el.dialog) closeProject();
     });
 
+    if (el.syncBtn) {
+      el.syncBtn.addEventListener('click', () => liveSyncFromGitHub(true));
+    }
+
     window.addEventListener('hashchange', checkHash);
 
     document.addEventListener('keydown', (e) => {
@@ -641,6 +650,131 @@
     });
   }
 
+  const LIVE_CACHE_KEY = 'dk-live-sync-v1';
+  const LIVE_TTL_MS = 5 * 60 * 1000;
+
+  function applyLivePatch(patch) {
+    if (!state.catalog || !patch || !patch.repos) return;
+    for (const p of state.catalog.projects) {
+      const upd = patch.repos[p.id];
+      if (!upd) continue;
+      if (typeof upd.stars === 'number') p.stars = upd.stars;
+      if (upd.updatedAt && upd.updatedAt > (p.updatedAt || '')) p.updatedAt = upd.updatedAt;
+      if (upd.version) p.version = upd.version;
+      if (upd.releaseUrl) p.releaseUrl = upd.releaseUrl;
+      if (upd.releaseNotes) p.releaseNotes = upd.releaseNotes;
+      if (Array.isArray(upd.assets) && upd.assets.length > 0) {
+        p.assets = upd.assets;
+        if (p.primaryAction?.type === 'download') {
+          p.primaryAction.url = upd.assets[0].url;
+          p.primaryAction.label = {
+            pt: `Baixar ${upd.assets[0].name}`,
+            en: `Download ${upd.assets[0].name}`
+          };
+        }
+      }
+    }
+    if (patch.syncedAt) state.catalog.generatedAt = patch.syncedAt;
+    renderTotals();
+    renderRecent();
+    renderAll();
+    if (el.dialog.open) {
+      const match = window.location.hash.match(/^#project\/([a-z0-9-]+)$/i);
+      if (match) openProject(match[1], false);
+    }
+  }
+
+  async function liveSyncFromGitHub(force = false) {
+    if (!state.catalog) return;
+
+    if (!force) {
+      try {
+        const cached = JSON.parse(localStorage.getItem(LIVE_CACHE_KEY) || 'null');
+        if (cached && cached.syncedAt && (Date.now() - new Date(cached.syncedAt).getTime()) < LIVE_TTL_MS) {
+          applyLivePatch(cached);
+          return;
+        }
+      } catch {}
+    }
+
+    const labelSpan = el.syncBtn?.querySelector('span');
+    if (el.syncBtn) {
+      el.syncBtn.disabled = true;
+      el.syncBtn.classList.add('is-syncing');
+      if (labelSpan) labelSpan.textContent = t('syncing');
+    }
+
+    try {
+      const owner = state.catalog.owner?.handle || 'davidkalil10';
+      const baseTime = new Date(state.catalog.generatedAt || 0).getTime();
+      const res = await fetch(`https://api.github.com/users/${owner}/repos?per_page=100`, {
+        headers: { Accept: 'application/vnd.github+json' }
+      });
+      if (!res.ok) return;
+      const ghRepos = await res.json();
+      const byName = new Map(ghRepos.map((r) => [r.full_name.toLowerCase(), r]));
+
+      const patch = { syncedAt: new Date().toISOString(), repos: {} };
+      const releaseChecks = [];
+
+      for (const p of state.catalog.projects) {
+        if (!p.repo) continue;
+        const r = byName.get(p.repo.toLowerCase());
+        if (!r) continue;
+        const entry = {
+          stars: r.stargazers_count ?? p.stars,
+          updatedAt: r.pushed_at ? r.pushed_at.slice(0, 10) : p.updatedAt
+        };
+        patch.repos[p.id] = entry;
+
+        const pushedMs = r.pushed_at ? new Date(r.pushed_at).getTime() : 0;
+        const shouldCheckRelease = p.primaryAction?.type === 'download' && (pushedMs > baseTime || force);
+        if (shouldCheckRelease && releaseChecks.length < 6) {
+          releaseChecks.push((async () => {
+            try {
+              const rRes = await fetch(`https://api.github.com/repos/${p.repo}/releases/latest`, {
+                headers: { Accept: 'application/vnd.github+json' }
+              });
+              if (!rRes.ok) return;
+              const latest = await rRes.json();
+              if (latest.tag_name) entry.version = latest.tag_name;
+              if (latest.html_url) entry.releaseUrl = latest.html_url;
+              if (latest.published_at) {
+                const pubDate = latest.published_at.slice(0, 10);
+                if (pubDate > (entry.updatedAt || '')) entry.updatedAt = pubDate;
+              }
+              if (latest.body) {
+                const cleaned = latest.body
+                  .replace(/<!--[\s\S]*?-->/g, '')
+                  .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, '')
+                  .replace(/\r\n/g, '\n')
+                  .trim();
+                if (cleaned) entry.releaseNotes = cleaned.length > 900 ? cleaned.slice(0, 900).trimEnd() + '…' : cleaned;
+              }
+              if (Array.isArray(latest.assets) && latest.assets.length > 0) {
+                const usable = latest.assets.filter((a) => !a.name.endsWith('.sha256') && a.name !== 'SHA256SUMS.txt');
+                const list = (usable.length > 0 ? usable : latest.assets).slice(0, 6);
+                entry.assets = list.map((a) => ({ name: a.name, url: a.browser_download_url }));
+              }
+            } catch {}
+          })());
+        }
+      }
+
+      await Promise.all(releaseChecks);
+      try { localStorage.setItem(LIVE_CACHE_KEY, JSON.stringify(patch)); } catch {}
+      applyLivePatch(patch);
+    } catch {
+      // Silently keep static catalog.json if offline or rate-limited
+    } finally {
+      if (el.syncBtn) {
+        el.syncBtn.disabled = false;
+        el.syncBtn.classList.remove('is-syncing');
+        if (labelSpan) labelSpan.textContent = t('syncNow');
+      }
+    }
+  }
+
   async function boot() {
     initLang();
     readQueryParams();
@@ -648,13 +782,14 @@
     bindEvents();
 
     try {
-      const res = await fetch('data/catalog.json');
+      const res = await fetch('data/catalog.json', { cache: 'no-cache' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       state.catalog = await res.json();
       renderTotals();
       renderRecent();
       renderAll();
       checkHash();
+      liveSyncFromGitHub(false);
     } catch (err) {
       el.catalogGroups.innerHTML = `<div class="empty-state"><p>Erro ao carregar data/catalog.json (${escapeHtml(err.message)}).</p></div>`;
     }

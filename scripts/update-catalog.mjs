@@ -28,9 +28,12 @@ async function main() {
   const catalog = JSON.parse(raw);
   const beforeProjects = JSON.stringify(catalog.projects);
 
+  const userRepos = await ghJson('https://api.github.com/users/davidkalil10/repos?per_page=100');
+  const repoMap = new Map(Array.isArray(userRepos) ? userRepos.map((r) => [r.full_name.toLowerCase(), r]) : []);
+
   for (const project of catalog.projects) {
     if (!project.repo) continue;
-    const repo = await ghJson(`https://api.github.com/repos/${project.repo}`);
+    const repo = repoMap.get(project.repo.toLowerCase()) || await ghJson(`https://api.github.com/repos/${project.repo}`);
     if (!repo) {
       console.warn(`Skipped ${project.repo} (repo fetch failed)`);
       continue;

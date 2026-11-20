@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T02:28:56.667Z",
+  "generatedAt": "2026-11-20T04:37:38.157Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -85,10 +85,10 @@
         "Switch 2"
       ],
       "image": "assets/projects/ppsspp-nx2.png",
-      "version": "v1.1.6",
+      "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 0,
-      "downloads": 22,
+      "downloads": 39,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -113,17 +113,17 @@
           "pt": "Baixar PPSSPP-switch2.nro",
           "en": "Download PPSSPP-switch2.nro"
         },
-        "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.6/PPSSPP-switch2.nro"
+        "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.9/PPSSPP-switch2.nro"
       },
       "assets": [
         {
           "name": "PPSSPP-switch2.nro",
-          "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.6/PPSSPP-switch2.nro"
+          "url": "https://github.com/davidkalil10/ppsspp-nx2/releases/download/v1.1.9/PPSSPP-switch2.nro"
         }
       ],
-      "releaseUrl": "https://github.com/davidkalil10/ppsspp-nx2/releases/tag/v1.1.6",
+      "releaseUrl": "https://github.com/davidkalil10/ppsspp-nx2/releases/tag/v1.1.9",
       "sourceUrl": "https://github.com/davidkalil10/ppsspp-nx2",
-      "releaseNotes": "# PPSSPP-nx2 v1.1.6 — Nintendo Switch 2 Release\n\nNative Nintendo Switch 2 port of **PPSSPP-nx** built with `ounce-devkit` (`libounce`), **OunceVK** (native Vulkan 1.4 + Zink OpenGL), and **kaiHEN** ARM64 JIT.\n\n## What's New in v1.1.6\n- **ARM64 JIT Stability Fix (`enableBlocklink = false`, `cachePointers = false` on Switch 2):** Disables in-place block-link patching over `kaiHEN`'s `RO` alias and prevents `AdjustNativeRegAsPtr` from masking away upper bits (`0x40000000`/`0x80000000`) of uncached PSP pointers under `MASKED_PSP_MEMORY`.\n- **Switch 2 PSP Memory Arena (`NO_MMAP` + `MASKED_PSP_MEMORY`, `MEMVIEW32_MASK = 0x0FFFFFFF`)** with zero Switch 1 kernel SVCs.\n- **Shared 32 MiB `kaiHEN` JIT Pool** with single-range `kaihenJitPublishRanges` publishing.\n- **Native Vulkan 1.4 (`OunceVK`)** default backend with **LSFG 2x Vulkan Frame Generation** support (user-supplied `Lossless.dll` in `/sw…"
+      "releaseNotes": "# PPSSPP-nx2 v1.1.9 — Nintendo Switch 2 Release\n\nNative Nintendo Switch 2 port of **PPSSPP-nx** built with `ounce-devkit` (`libounce`), **OunceVK** (native Vulkan 1.4 + Zink OpenGL), and **kaiHEN** ARM64 JIT.\n\n## What's New in v1.1.9\n- **In-Process Return to Launcher (`Exit to launcher`):** Exiting a game now shuts down the game session (Vulkan/SDL/audio/`NativeShutdown`) and loops directly back into `SwitchLauncher::Run()` in-process — instant return to the game list without calling `envSetNextLoad` or crashing to Horizon OS.\n- **Clean Exit to `hbmenu` After Auto-Update:** After installing a pending update in-app, `PPSSPP-nx2` now skips `envSetNextLoad` and exits cleanly back to `hbmenu` (matching pressing **B** in the launcher).\n- **Full-Speed ARM64 JIT Verified on Real Switch 2 Hardware** (*God of War: Chains of Olympus* verified running smoothly in JIT mode over `kaiHEN` + `MASKED_PS…"
     },
     {
       "id": "vita3k-nx2",
@@ -140,7 +140,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 27,
+      "downloads": 29,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -250,7 +250,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 13,
-      "downloads": 50,
+      "downloads": 51,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -372,7 +372,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 34,
+      "downloads": 35,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -488,7 +488,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 31,
+      "downloads": 32,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -546,7 +546,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 37,
+      "downloads": 38,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -604,7 +604,7 @@
       "version": "v0.1.10",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 34,
+      "downloads": 35,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -818,7 +818,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-15",
       "stars": 0,
-      "downloads": 95,
+      "downloads": 96,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
