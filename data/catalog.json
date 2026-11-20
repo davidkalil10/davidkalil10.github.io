@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T04:37:38.157Z",
+  "generatedAt": "2026-11-20T10:42:18.978Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -88,7 +88,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 0,
-      "downloads": 39,
+      "downloads": 42,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 29,
+      "downloads": 32,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -249,8 +249,8 @@
       "image": "assets/projects/super-moonlight-nx2.jpg",
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
-      "stars": 13,
-      "downloads": 51,
+      "stars": 14,
+      "downloads": 58,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -372,7 +372,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 35,
+      "downloads": 37,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -488,7 +488,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 32,
+      "downloads": 34,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -546,7 +546,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 38,
+      "downloads": 40,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -604,7 +604,7 @@
       "version": "v0.1.10",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 35,
+      "downloads": 36,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -662,7 +662,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 431,
+      "downloads": 432,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -739,7 +739,7 @@
       "image": "assets/projects/heroes-lore-2.png",
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
-      "stars": 4,
+      "stars": 5,
       "downloads": 205,
       "badge": {
         "pt": "Recompilação",
@@ -896,7 +896,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 327,
+      "downloads": 328,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
