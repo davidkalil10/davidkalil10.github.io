@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:36:42.208Z",
+  "generatedAt": "2026-11-21T21:08:02.952Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -87,8 +87,8 @@
       "image": "assets/projects/ppsspp-nx2.png",
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
-      "stars": 2,
-      "downloads": 67,
+      "stars": 3,
+      "downloads": 74,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 52,
+      "downloads": 60,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -250,7 +250,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 14,
-      "downloads": 77,
+      "downloads": 78,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -372,7 +372,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 45,
+      "downloads": 47,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -430,7 +430,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 3,
-      "downloads": 24,
+      "downloads": 25,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -546,7 +546,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 53,
+      "downloads": 55,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -662,7 +662,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 6,
-      "downloads": 443,
+      "downloads": 445,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -818,7 +818,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-15",
       "stars": 0,
-      "downloads": 99,
+      "downloads": 100,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -972,7 +972,7 @@
       "version": "v1.1.6",
       "updatedAt": "2026-10-21",
       "stars": 4,
-      "downloads": 92,
+      "downloads": 93,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
