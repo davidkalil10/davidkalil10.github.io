@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:26:46.742Z",
+  "generatedAt": "2026-11-21T07:31:28.541Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -88,7 +88,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 2,
-      "downloads": 59,
+      "downloads": 63,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 39,
+      "downloads": 40,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -250,7 +250,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 14,
-      "downloads": 64,
+      "downloads": 70,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -372,7 +372,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 39,
+      "downloads": 41,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -430,7 +430,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 3,
-      "downloads": 20,
+      "downloads": 22,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -488,7 +488,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 37,
+      "downloads": 39,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -546,7 +546,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 45,
+      "downloads": 50,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -662,7 +662,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 438,
+      "downloads": 439,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
