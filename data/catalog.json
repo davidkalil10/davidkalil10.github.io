@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T07:31:28.541Z",
+  "generatedAt": "2026-11-21T15:36:42.208Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -88,7 +88,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 2,
-      "downloads": 63,
+      "downloads": 67,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 40,
+      "downloads": 52,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -250,7 +250,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 14,
-      "downloads": 70,
+      "downloads": 77,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -372,7 +372,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 41,
+      "downloads": 45,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -430,7 +430,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 3,
-      "downloads": 22,
+      "downloads": 24,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -488,7 +488,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 39,
+      "downloads": 42,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -546,7 +546,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 50,
+      "downloads": 53,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -601,10 +601,10 @@
         "Switch 2"
       ],
       "image": "assets/projects/ns2toolkit.svg",
-      "version": "v0.1.10",
-      "updatedAt": "2026-11-15",
+      "version": "v0.1.11",
+      "updatedAt": "2026-11-21",
       "stars": 5,
-      "downloads": 39,
+      "downloads": 43,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -626,20 +626,20 @@
       "primaryAction": {
         "type": "download",
         "label": {
-          "pt": "Baixar NS2ToolKit-v0.1.10-win-x64.zip",
-          "en": "Download NS2ToolKit-v0.1.10-win-x64.zip"
+          "pt": "Baixar NS2ToolKit-v0.1.11-win-x64.zip",
+          "en": "Download NS2ToolKit-v0.1.11-win-x64.zip"
         },
-        "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.10/NS2ToolKit-v0.1.10-win-x64.zip"
+        "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.11/NS2ToolKit-v0.1.11-win-x64.zip"
       },
       "assets": [
         {
-          "name": "NS2ToolKit-v0.1.10-win-x64.zip",
-          "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.10/NS2ToolKit-v0.1.10-win-x64.zip"
+          "name": "NS2ToolKit-v0.1.11-win-x64.zip",
+          "url": "https://github.com/davidkalil10/NS2ToolKit/releases/download/v0.1.11/NS2ToolKit-v0.1.11-win-x64.zip"
         }
       ],
-      "releaseUrl": "https://github.com/davidkalil10/NS2ToolKit/releases/tag/v0.1.10",
+      "releaseUrl": "https://github.com/davidkalil10/NS2ToolKit/releases/tag/v0.1.11",
       "sourceUrl": "https://github.com/davidkalil10/NS2ToolKit",
-      "releaseNotes": "# NS2ToolKit 0.1.10\n\nAtive o homebrew pela mesma conexão 4/4 usada na tela inicial, sem repetir os comandos no SmileBASIC.\n\n- Botão **Ativar Homebrew** disponível quando a conexão compatível está mantida aberta.\n- Etapas guiadas para aguardar kaiHEN, fechar SmileBASIC sem reiniciar e abrir um jogo nativo de Switch 2 segurando R para entrar no hbmenu.\n- Corrige a validação da prova FS, que recusava sessões saudáveis ao procurar a confirmação de restauração fora das duas tentativas detalhadas.\n- Mantém exclusividade da sessão durante a ativação e os registros de falhas; depois de ativar homebrew, reinicie antes de voltar a backups ou FTP.\n- Ativação pela conexão mantida e abertura do hbmenu confirmadas em console. A limpeza do endpoint FS após fechar o SmileBASIC registrou erro no teste; os registros são preservados e isso não foi tratado como limpeza concluída.\n\nO portátil Windows x64 inc…"
+      "releaseNotes": "# NS2ToolKit 0.1.11\n\nAtualiza o ambiente homebrew para **kaiHEN 20261117.1**, mantendo a ativação pela conexão 4/4 da tela inicial.\n\n- Reconexão 4/4 e reativação do hbmenu confirmadas no console.\n- Configuração única de versão, origem, hashes, revisões, fontes e perfil de integração.\n- Comando de manutenção `Atualizar-Kaihen.ps1` para preparar e conferir próximas atualizações na pasta de fontes.\n- Downloads temporários, SHA-256 e extração em pasta nova verificados antes de aceitar o pacote.\n- Versão do kaiHEN visível na janela e registrada nas sessões e no portátil.\n- Fluxo guiado, host Windows e módulos existentes de backups, saves e FTP preservados.\n\nO portátil Windows x64 inclui as dependências. Extraia o ZIP em uma pasta nova e abra **NS2 Assistente.exe**. Para executar o novo kaiHEN, reinicie o console e faça uma nova ativação pelo portátil atualizado; o programa NS2 salvo no SmileB…"
     },
     {
       "id": "heroes-lore-1",
@@ -661,8 +661,8 @@
       "image": "assets/projects/heroes-lore-1.jpg",
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
-      "stars": 5,
-      "downloads": 439,
+      "stars": 6,
+      "downloads": 443,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -740,7 +740,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 208,
+      "downloads": 209,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -896,7 +896,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 333,
+      "downloads": 334,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -972,7 +972,7 @@
       "version": "v1.1.6",
       "updatedAt": "2026-10-21",
       "stars": 4,
-      "downloads": 89,
+      "downloads": 92,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
