@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T07:59:19.371Z",
+  "generatedAt": "2026-11-22T15:57:36.708Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -85,10 +85,10 @@
         "Switch 2"
       ],
       "image": "assets/projects/eden-nx2.png",
-      "version": "v0.1.5",
+      "version": "v0.1.6",
       "updatedAt": "2026-11-22",
-      "stars": 11,
-      "downloads": 69,
+      "stars": 20,
+      "downloads": 128,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -113,15 +113,15 @@
           "pt": "Baixar eden-switch2.nro",
           "en": "Download eden-switch2.nro"
         },
-        "url": "https://github.com/davidkalil10/eden-nx2/releases/download/v0.1.5/eden-switch2.nro"
+        "url": "https://github.com/davidkalil10/eden-nx2/releases/download/v0.1.6/eden-switch2.nro"
       },
       "assets": [
         {
           "name": "eden-switch2.nro",
-          "url": "https://github.com/davidkalil10/eden-nx2/releases/download/v0.1.5/eden-switch2.nro"
+          "url": "https://github.com/davidkalil10/eden-nx2/releases/download/v0.1.6/eden-switch2.nro"
         }
       ],
-      "releaseUrl": "https://github.com/davidkalil10/eden-nx2/releases/tag/v0.1.5",
+      "releaseUrl": "https://github.com/davidkalil10/eden-nx2/releases/tag/v0.1.6",
       "sourceUrl": "https://github.com/davidkalil10/eden-nx2",
       "releaseNotes": "## Eden-NX2 — Native Nintendo Switch 2 Port of Eden\n\n**Eden-NX2** is a native **Nintendo Switch 2** (`aarch64` / `OUN0` NRO) homebrew port of the **Eden** Nintendo Switch 1 emulator, built on **`ounce-devkit`**, **`OunceVK`** (static Vulkan 1.4), and **`kaiHEN`** dual-mapped ARM64 JIT (`Dynarmic`).\n\n> **Português (BR):** O **Eden-NX2** permite rodar jogos de **Nintendo Switch 1** nativamente como homebrew no **Nintendo Switch 2** (`eden-switch2.nro`), com renderização **Vulkan 1.4 (`OunceVK`)**, **JIT ARM64 (`kaiHEN`)**, launcher gráfico bilíngue (PT/EN) em 1280×720, gerenciador de Updates/DLCs e suporte a geração de frames via **Lossless Scaling (`LSFG`)**.\n\n---\n\n### What's New / Novidades\n- **Built-In GitHub Auto-Updater (`[L]` in Launcher):**\n  - Checks `davidkalil10/eden-nx2` latest GitHub Release directly from your Switch 2, downloads `eden-switch2.nro` with a live progress bar, ver…"
     },
@@ -140,7 +140,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 3,
-      "downloads": 78,
+      "downloads": 84,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -192,7 +192,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 6,
-      "downloads": 65,
+      "downloads": 70,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -301,8 +301,8 @@
       "image": "assets/projects/super-moonlight-nx2.jpg",
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
-      "stars": 14,
-      "downloads": 84,
+      "stars": 13,
+      "downloads": 87,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -598,7 +598,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 59,
+      "downloads": 61,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -656,7 +656,7 @@
       "version": "v0.1.11",
       "updatedAt": "2026-11-21",
       "stars": 5,
-      "downloads": 47,
+      "downloads": 52,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -792,7 +792,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 229,
+      "downloads": 231,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -948,7 +948,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 357,
+      "downloads": 360,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
