@@ -74,6 +74,58 @@
   ],
   "projects": [
     {
+      "id": "eden-nx2",
+      "repo": "davidkalil10/eden-nx2",
+      "title": "Eden-NX2",
+      "category": "switch2",
+      "platforms": [
+        "switch2"
+      ],
+      "platformLabels": [
+        "Switch 2"
+      ],
+      "image": "assets/projects/eden-nx2.png",
+      "version": "v0.1.1",
+      "updatedAt": "2026-11-22",
+      "stars": 0,
+      "downloads": 2,
+      "badge": {
+        "pt": "Emulador",
+        "en": "Emulator"
+      },
+      "summary": {
+        "pt": "Port nativo do emulador de Nintendo Switch 1 (Eden) para Nintendo Switch 2 (eden-switch2.nro) com Vulkan 1.4 via OunceVK, JIT ARM64 (Dynarmic via kaiHEN), launcher gráfico bilíngue (PT/EN), gerenciador de Updates/DLCs e suporte a LSFG.",
+        "en": "Native Nintendo Switch 2 homebrew port of the Eden Nintendo Switch 1 emulator (eden-switch2.nro) featuring Vulkan 1.4 via OunceVK, kaiHEN dual-mapped ARM64 JIT (Dynarmic), bilingual PT/EN 720p launcher, Updates/DLCs manager, and LSFG frame generation."
+      },
+      "note": {
+        "title": {
+          "pt": "Antes de instalar",
+          "en": "Before you install"
+        },
+        "body": {
+          "pt": "Copie eden-switch2.nro para o cartão SD e execute via Homebrew Menu em modo full-RAM (Title Override) no Nintendo Switch 2 com kaiHEN.",
+          "en": "Copy eden-switch2.nro to your SD card and launch via Homebrew Menu in full-RAM mode (title override) on Nintendo Switch 2 with kaiHEN."
+        }
+      },
+      "primaryAction": {
+        "type": "download",
+        "label": {
+          "pt": "Baixar eden-switch2.nro",
+          "en": "Download eden-switch2.nro"
+        },
+        "url": "https://github.com/davidkalil10/eden-nx2/releases/download/v0.1.1/eden-switch2.nro"
+      },
+      "assets": [
+        {
+          "name": "eden-switch2.nro",
+          "url": "https://github.com/davidkalil10/eden-nx2/releases/download/v0.1.1/eden-switch2.nro"
+        }
+      ],
+      "releaseUrl": "https://github.com/davidkalil10/eden-nx2/releases/tag/v0.1.1",
+      "sourceUrl": "https://github.com/davidkalil10/eden-nx2",
+      "releaseNotes": "Native Nintendo Switch 2 port of Eden built on ounce-devkit, OunceVK (static Vulkan 1.4), and kaiHEN dual-mapped ARM64 JIT (Dynarmic), with bilingual PT/EN 1280×720 launcher, Updates/DLCs manager, and Lossless Scaling (LSFG) support."
+    },
+    {
       "id": "ppsspp-nx2",
       "repo": "davidkalil10/ppsspp-nx2",
       "title": "PPSSPP-nx2",
