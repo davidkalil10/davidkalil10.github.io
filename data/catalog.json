@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T09:57:52.933Z",
+  "generatedAt": "2026-11-23T21:52:35.673Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -87,8 +87,8 @@
       "image": "assets/projects/eden-nx2.png",
       "version": "v0.1.16",
       "updatedAt": "2026-11-23",
-      "stars": 24,
-      "downloads": 281,
+      "stars": 28,
+      "downloads": 325,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 3,
-      "downloads": 89,
+      "downloads": 102,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -191,8 +191,8 @@
       "image": "assets/projects/vita3k-nx2.svg",
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
-      "stars": 6,
-      "downloads": 80,
+      "stars": 7,
+      "downloads": 88,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -302,7 +302,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 16,
-      "downloads": 108,
+      "downloads": 118,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -424,7 +424,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 54,
+      "downloads": 55,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -482,7 +482,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 3,
-      "downloads": 36,
+      "downloads": 40,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -540,7 +540,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 48,
+      "downloads": 56,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -598,7 +598,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 67,
+      "downloads": 71,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -714,7 +714,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 476,
+      "downloads": 513,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -792,7 +792,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 235,
+      "downloads": 245,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -870,7 +870,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-15",
       "stars": 0,
-      "downloads": 101,
+      "downloads": 102,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -948,7 +948,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 363,
+      "downloads": 405,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
