@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T05:41:20.947Z",
+  "generatedAt": "2026-11-24T16:24:53.656Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -88,7 +88,7 @@
       "version": "v0.1.16",
       "updatedAt": "2026-11-24",
       "stars": 30,
-      "downloads": 341,
+      "downloads": 361,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 3,
-      "downloads": 108,
+      "downloads": 117,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -192,7 +192,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 7,
-      "downloads": 92,
+      "downloads": 101,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -246,7 +246,7 @@
       "version": "v1.4.0-switch2",
       "updatedAt": "2026-11-18",
       "stars": 1,
-      "downloads": 28,
+      "downloads": 29,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -301,8 +301,8 @@
       "image": "assets/projects/super-moonlight-nx2.jpg",
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
-      "stars": 16,
-      "downloads": 120,
+      "stars": 17,
+      "downloads": 123,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -424,7 +424,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 55,
+      "downloads": 58,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -481,8 +481,8 @@
       "image": "assets/projects/switch2iptv.jpg",
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
-      "stars": 3,
-      "downloads": 43,
+      "stars": 4,
+      "downloads": 49,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -540,7 +540,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 58,
+      "downloads": 61,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -598,7 +598,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 71,
+      "downloads": 77,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -714,7 +714,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 532,
+      "downloads": 549,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -792,7 +792,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 247,
+      "downloads": 251,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -948,7 +948,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 420,
+      "downloads": 440,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -1024,7 +1024,7 @@
       "version": "v1.1.6",
       "updatedAt": "2026-10-21",
       "stars": 4,
-      "downloads": 101,
+      "downloads": 102,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
