@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:24:53.656Z",
+  "generatedAt": "2026-11-25T00:56:38.541Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -88,7 +88,7 @@
       "version": "v0.1.16",
       "updatedAt": "2026-11-24",
       "stars": 30,
-      "downloads": 361,
+      "downloads": 374,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -139,8 +139,8 @@
       "image": "assets/projects/ppsspp-nx2.png",
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
-      "stars": 3,
-      "downloads": 117,
+      "stars": 4,
+      "downloads": 124,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -191,8 +191,8 @@
       "image": "assets/projects/vita3k-nx2.svg",
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
-      "stars": 7,
-      "downloads": 101,
+      "stars": 9,
+      "downloads": 105,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -301,8 +301,8 @@
       "image": "assets/projects/super-moonlight-nx2.jpg",
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
-      "stars": 17,
-      "downloads": 123,
+      "stars": 18,
+      "downloads": 126,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -424,7 +424,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 58,
+      "downloads": 59,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -482,7 +482,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 49,
+      "downloads": 54,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -540,7 +540,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 61,
+      "downloads": 67,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -598,7 +598,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 77,
+      "downloads": 81,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -656,7 +656,7 @@
       "version": "v0.1.11",
       "updatedAt": "2026-11-21",
       "stars": 6,
-      "downloads": 55,
+      "downloads": 57,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -714,7 +714,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 549,
+      "downloads": 555,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -792,7 +792,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 251,
+      "downloads": 253,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -870,7 +870,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-15",
       "stars": 0,
-      "downloads": 102,
+      "downloads": 105,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -948,7 +948,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 440,
+      "downloads": 445,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -1024,7 +1024,7 @@
       "version": "v1.1.6",
       "updatedAt": "2026-10-21",
       "stars": 4,
-      "downloads": 102,
+      "downloads": 104,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
