@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T20:10:09.664Z",
+  "generatedAt": "2026-11-27T02:49:57.444Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -88,7 +88,7 @@
       "version": "v0.1.16",
       "updatedAt": "2026-11-25",
       "stars": 33,
-      "downloads": 453,
+      "downloads": 466,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -140,7 +140,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 4,
-      "downloads": 145,
+      "downloads": 146,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -192,7 +192,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 11,
-      "downloads": 128,
+      "downloads": 129,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -302,7 +302,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 19,
-      "downloads": 158,
+      "downloads": 164,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -482,7 +482,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 66,
+      "downloads": 67,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -540,7 +540,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 78,
+      "downloads": 84,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -598,7 +598,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 94,
+      "downloads": 95,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -656,7 +656,7 @@
       "version": "v0.1.11",
       "updatedAt": "2026-11-21",
       "stars": 6,
-      "downloads": 62,
+      "downloads": 63,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -714,7 +714,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 605,
+      "downloads": 617,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -792,7 +792,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 270,
+      "downloads": 271,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -948,7 +948,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 505,
+      "downloads": 508,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
