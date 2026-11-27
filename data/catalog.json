@@ -74,6 +74,62 @@
   ],
   "projects": [
     {
+      "id": "n-launcher",
+      "repo": "davidkalil10/n-launcher",
+      "title": "N Launcher",
+      "category": "switch2",
+      "platforms": [
+        "switch2"
+      ],
+      "platformLabels": [
+        "Switch 2"
+      ],
+      "image": "assets/projects/n-launcher.jpg",
+      "version": "v0.0.16",
+      "updatedAt": "2026-11-27",
+      "stars": 0,
+      "downloads": 110,
+      "badge": {
+        "pt": "Launcher",
+        "en": "Launcher"
+      },
+      "summary": {
+        "pt": "Homebrew para Nintendo Switch 2 que prepara e executa backups NUP diretamente no console, sem precisar gerar um NRO separado no PC. Suporta arquivos NUP únicos e pastas .nup divididas (00, 01, …), caches, perfis de memória e saves.",
+        "en": "Nintendo Switch 2 homebrew for preparing and launching NUP backups directly on the console without building a separate NRO per game on PC. Supports single-file NUPs and split .nup folders (00, 01, …), caches, memory profiles, and saves."
+      },
+      "note": {
+        "title": {
+          "pt": "Antes de instalar",
+          "en": "Before you install"
+        },
+        "body": {
+          "pt": "Extraia N-Launcher-v0.0.16-Switch2.zip ou copie n-launcher.nro para o cartão SD e execute via Homebrew Menu no Nintendo Switch 2 com kaiHEN.",
+          "en": "Extract N-Launcher-v0.0.16-Switch2.zip or copy n-launcher.nro to your SD card and launch via Homebrew Menu on Nintendo Switch 2 with kaiHEN."
+        }
+      },
+      "primaryAction": {
+        "type": "download",
+        "label": {
+          "pt": "Baixar N-Launcher-v0.0.16-Switch2.zip",
+          "en": "Download N-Launcher-v0.0.16-Switch2.zip"
+        },
+        "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/N-Launcher-v0.0.16-Switch2.zip"
+      },
+      "assets": [
+        {
+          "name": "N-Launcher-v0.0.16-Switch2.zip",
+          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/N-Launcher-v0.0.16-Switch2.zip"
+        },
+        {
+          "name": "n-launcher.nro",
+          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/n-launcher.nro"
+        }
+      ],
+      "releaseUrl": "https://github.com/davidkalil10/n-launcher/releases/tag/v0.0.16",
+      "sourceUrl": "https://github.com/davidkalil10/n-launcher",
+      "releaseNotes": "N Launcher 0.0.16 fixes a frontend crash during game preparation and improves progress when concurrent file reads contend for loader locks. Single-file and split NUP support, existing caches, memory profiles and saves are preserved."
+    },
+    {
       "id": "eden-nx2",
       "repo": "davidkalil10/eden-nx2",
       "title": "Eden-NX2",
