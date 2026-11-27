@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T02:49:57.444Z",
+  "generatedAt": "2026-11-27T11:33:28.065Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -87,8 +87,8 @@
       "image": "assets/projects/n-launcher.jpg",
       "version": "v0.0.16",
       "updatedAt": "2026-11-27",
-      "stars": 0,
-      "downloads": 110,
+      "stars": 9,
+      "downloads": 316,
       "badge": {
         "pt": "Launcher",
         "en": "Launcher"
@@ -123,11 +123,15 @@
         {
           "name": "n-launcher.nro",
           "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/n-launcher.nro"
+        },
+        {
+          "name": "update.ini",
+          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/update.ini"
         }
       ],
       "releaseUrl": "https://github.com/davidkalil10/n-launcher/releases/tag/v0.0.16",
       "sourceUrl": "https://github.com/davidkalil10/n-launcher",
-      "releaseNotes": "N Launcher 0.0.16 fixes a frontend crash during game preparation and improves progress when concurrent file reads contend for loader locks. Single-file and split NUP support, existing caches, memory profiles and saves are preserved."
+      "releaseNotes": "N Launcher 0.0.16 fixes a frontend crash during game preparation and improves progress when concurrent file reads contend for loader locks.\n\n- A delayed display-image release no longer aborts the frontend. The pending image stays untouched while the event/job loop continues; other acquisition errors shut down safely.\n- Reviewed nx2-flow PR #44 backoff lets lower-priority threads finish file reads and decompression. The helper is pinned and credited; this is a targeted backport, not a full loader update.\n- Single-file and split NUP support, existing caches, memory profiles and saves are preserved. No kaiHEN update or reactivation is required.\n\nConsole validation: Pokopia and Elliot launching recovered with the display fix. The combined 0.0.15 test build started Zelda: Ocarina of Time in about 30 seconds, with audio, and completed the cutscene and following loading screen using Split Ficti…"
     },
     {
       "id": "eden-nx2",
@@ -144,7 +148,7 @@
       "version": "v0.1.16",
       "updatedAt": "2026-11-25",
       "stars": 33,
-      "downloads": 466,
+      "downloads": 502,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -196,7 +200,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 4,
-      "downloads": 146,
+      "downloads": 147,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -248,7 +252,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 11,
-      "downloads": 129,
+      "downloads": 132,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -302,7 +306,7 @@
       "version": "v1.4.0-switch2",
       "updatedAt": "2026-11-18",
       "stars": 1,
-      "downloads": 29,
+      "downloads": 31,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -358,7 +362,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 19,
-      "downloads": 164,
+      "downloads": 165,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -596,7 +600,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 84,
+      "downloads": 87,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -654,7 +658,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 95,
+      "downloads": 99,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -712,7 +716,7 @@
       "version": "v0.1.11",
       "updatedAt": "2026-11-21",
       "stars": 6,
-      "downloads": 63,
+      "downloads": 70,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -770,7 +774,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 617,
+      "downloads": 622,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -1004,7 +1008,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 508,
+      "downloads": 509,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
