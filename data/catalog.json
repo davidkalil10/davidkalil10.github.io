@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T11:33:28.065Z",
+  "generatedAt": "2026-11-27T20:18:46.256Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -85,10 +85,10 @@
         "Switch 2"
       ],
       "image": "assets/projects/n-launcher.jpg",
-      "version": "v0.0.16",
+      "version": "v0.0.20",
       "updatedAt": "2026-11-27",
-      "stars": 9,
-      "downloads": 316,
+      "stars": 19,
+      "downloads": 756,
       "badge": {
         "pt": "Launcher",
         "en": "Launcher"
@@ -110,28 +110,28 @@
       "primaryAction": {
         "type": "download",
         "label": {
-          "pt": "Baixar N-Launcher-v0.0.16-Switch2.zip",
-          "en": "Download N-Launcher-v0.0.16-Switch2.zip"
+          "pt": "Baixar N-Launcher-v0.0.20-Switch2.zip",
+          "en": "Download N-Launcher-v0.0.20-Switch2.zip"
         },
-        "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/N-Launcher-v0.0.16-Switch2.zip"
+        "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.20/N-Launcher-v0.0.20-Switch2.zip"
       },
       "assets": [
         {
-          "name": "N-Launcher-v0.0.16-Switch2.zip",
-          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/N-Launcher-v0.0.16-Switch2.zip"
+          "name": "N-Launcher-v0.0.20-Switch2.zip",
+          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.20/N-Launcher-v0.0.20-Switch2.zip"
         },
         {
           "name": "n-launcher.nro",
-          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/n-launcher.nro"
+          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.20/n-launcher.nro"
         },
         {
           "name": "update.ini",
-          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.16/update.ini"
+          "url": "https://github.com/davidkalil10/n-launcher/releases/download/v0.0.20/update.ini"
         }
       ],
-      "releaseUrl": "https://github.com/davidkalil10/n-launcher/releases/tag/v0.0.16",
+      "releaseUrl": "https://github.com/davidkalil10/n-launcher/releases/tag/v0.0.20",
       "sourceUrl": "https://github.com/davidkalil10/n-launcher",
-      "releaseNotes": "N Launcher 0.0.16 fixes a frontend crash during game preparation and improves progress when concurrent file reads contend for loader locks.\n\n- A delayed display-image release no longer aborts the frontend. The pending image stays untouched while the event/job loop continues; other acquisition errors shut down safely.\n- Reviewed nx2-flow PR #44 backoff lets lower-priority threads finish file reads and decompression. The helper is pinned and credited; this is a targeted backport, not a full loader update.\n- Single-file and split NUP support, existing caches, memory profiles and saves are preserved. No kaiHEN update or reactivation is required.\n\nConsole validation: Pokopia and Elliot launching recovered with the display fix. The combined 0.0.15 test build started Zelda: Ocarina of Time in about 30 seconds, with audio, and completed the cutscene and following loading screen using Split Ficti…"
+      "releaseNotes": "N Launcher 0.0.20 adds an in-app language toggle between **Português** and **English**:\n\n- **Language switcher (`L — App settings / Ajustes do aplicativo`)**: Toggle between `Português` and `English` with immediate UI update. Saved as `language=pt` or `language=en` in `/switch/n-launcher/menu.cfg` without modifying existing settings, profiles, cache or saves.\n- **Full frontend localization**: Library, folder picker, game options, per-game memory settings, updater prompts, and Switch status/dialog messages are translated in both Portuguese and English.\n\nUpdate through `[R]` in N Launcher, return to hbmenu, and reopen the updated NRO. Game data, memory profiles and saves are preserved."
     },
     {
       "id": "eden-nx2",
@@ -148,7 +148,7 @@
       "version": "v0.1.16",
       "updatedAt": "2026-11-25",
       "stars": 33,
-      "downloads": 502,
+      "downloads": 525,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -200,7 +200,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 4,
-      "downloads": 147,
+      "downloads": 152,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -251,8 +251,8 @@
       "image": "assets/projects/vita3k-nx2.svg",
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
-      "stars": 11,
-      "downloads": 132,
+      "stars": 10,
+      "downloads": 136,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -306,7 +306,7 @@
       "version": "v1.4.0-switch2",
       "updatedAt": "2026-11-18",
       "stars": 1,
-      "downloads": 31,
+      "downloads": 34,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -362,7 +362,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 19,
-      "downloads": 165,
+      "downloads": 170,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -422,7 +422,7 @@
       "version": "v2.0.1-port.13-switch2",
       "updatedAt": "2026-11-18",
       "stars": 0,
-      "downloads": 12,
+      "downloads": 13,
       "badge": {
         "pt": "Port Nativo",
         "en": "Native Port"
@@ -484,7 +484,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 69,
+      "downloads": 70,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -542,7 +542,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 67,
+      "downloads": 71,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -600,7 +600,7 @@
       "version": "v1.3.0",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 87,
+      "downloads": 91,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -658,7 +658,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 99,
+      "downloads": 103,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -716,7 +716,7 @@
       "version": "v0.1.11",
       "updatedAt": "2026-11-21",
       "stars": 6,
-      "downloads": 70,
+      "downloads": 77,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -774,7 +774,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 622,
+      "downloads": 626,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -852,7 +852,7 @@
       "version": "v0.2.18",
       "updatedAt": "2026-11-15",
       "stars": 5,
-      "downloads": 271,
+      "downloads": 272,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -930,7 +930,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-15",
       "stars": 0,
-      "downloads": 106,
+      "downloads": 113,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
@@ -1008,7 +1008,7 @@
       "version": "v1.0.18",
       "updatedAt": "2026-11-15",
       "stars": 4,
-      "downloads": 509,
+      "downloads": 513,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
