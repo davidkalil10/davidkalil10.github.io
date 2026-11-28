@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:50:22.312Z",
+  "generatedAt": "2026-11-28T11:03:23.944Z",
   "owner": {
     "handle": "davidkalil10",
     "name": "David Kalil Braga",
@@ -86,9 +86,9 @@
       ],
       "image": "assets/projects/n-launcher.jpg",
       "version": "v0.0.21",
-      "updatedAt": "2026-11-27",
-      "stars": 24,
-      "downloads": 999,
+      "updatedAt": "2026-11-28",
+      "stars": 26,
+      "downloads": 1132,
       "badge": {
         "pt": "Launcher",
         "en": "Launcher"
@@ -148,7 +148,7 @@
       "version": "v0.1.16",
       "updatedAt": "2026-11-25",
       "stars": 33,
-      "downloads": 537,
+      "downloads": 549,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -200,7 +200,7 @@
       "version": "v1.1.9",
       "updatedAt": "2026-11-20",
       "stars": 4,
-      "downloads": 155,
+      "downloads": 156,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -252,7 +252,7 @@
       "version": "v1.4.1",
       "updatedAt": "2026-11-19",
       "stars": 10,
-      "downloads": 137,
+      "downloads": 139,
       "badge": {
         "pt": "Emulador",
         "en": "Emulator"
@@ -362,7 +362,7 @@
       "version": "v1.0.0",
       "updatedAt": "2026-11-18",
       "stars": 19,
-      "downloads": 172,
+      "downloads": 175,
       "badge": {
         "pt": "Streaming",
         "en": "Streaming"
@@ -484,7 +484,7 @@
       "version": "v0.3.2",
       "updatedAt": "2026-11-18",
       "stars": 5,
-      "downloads": 70,
+      "downloads": 71,
       "badge": {
         "pt": "Mídia",
         "en": "Media"
@@ -542,7 +542,7 @@
       "version": "v1.0.8",
       "updatedAt": "2026-11-18",
       "stars": 4,
-      "downloads": 73,
+      "downloads": 74,
       "badge": {
         "pt": "IPTV",
         "en": "IPTV"
@@ -658,7 +658,7 @@
       "version": "v1.0.31pre1-switch2",
       "updatedAt": "2026-11-18",
       "stars": 6,
-      "downloads": 105,
+      "downloads": 106,
       "badge": {
         "pt": "Cloud Gaming",
         "en": "Cloud Gaming"
@@ -714,9 +714,9 @@
       ],
       "image": "assets/projects/ns2toolkit.svg",
       "version": "v0.1.11",
-      "updatedAt": "2026-11-21",
+      "updatedAt": "2026-11-28",
       "stars": 6,
-      "downloads": 78,
+      "downloads": 80,
       "badge": {
         "pt": "Ferramenta",
         "en": "Tool"
@@ -774,7 +774,7 @@
       "version": "v1.2.8",
       "updatedAt": "2026-11-15",
       "stars": 7,
-      "downloads": 630,
+      "downloads": 632,
       "badge": {
         "pt": "Recompilação",
         "en": "Recompilation"
